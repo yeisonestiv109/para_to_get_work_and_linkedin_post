@@ -37,9 +37,12 @@
 - **PostgreSQL (Supabase) + pgvector**, RLS (Row Level Security / multi-tenant), SQLite, ChromaDB.
 
 ### Cloud / Infra / MLOps
-- **Modal** (serverless, autoescalado), **Docker**, CI/CD, rotación de secretos/keys.
+- **AWS** (Lambda, Bedrock — uso real confirmado), **Google Cloud** (certificado: Terraform, IAM,
+  DevOps Workflows), **Modal** (serverless, autoescalado), **Docker**, CI/CD, rotación de secretos/keys.
 - **Observabilidad LLM:** LangSmith (tracing/eval), optimización de costos de tokens.
 - Edge AI: **NVIDIA Jetson Orin Nano**, PyTorch, inferencia optimizada (FP16, 93.8 ms).
+
+> ✅ **Gap de cloud resuelto:** AWS (real) + GCP (certificado) → ya no es debilidad, es fortaleza dual.
 
 ### Frontend (capacidad full-stack)
 - **Next.js 16, React 19, TailwindCSS, Radix UI, Recharts** (dashboards).
@@ -74,17 +77,16 @@ voz, guardrails). Tu ventaja es que ya lo llevaste a **producción** y lo **medi
 
 ## 🧩 GAPS a cerrar (priorizados — y se cierran rápido con tu base + IA)
 
-1. **AWS real (alta prioridad):** tu CV menciona Lambda/ECS/Bedrock pero tus proyectos corren en
-   Modal/Supabase/Groq. Riesgo: que te lo pregunten en el screen técnico y no lo puedas defender.
-   → Acción: o construyes 1 demo real en AWS (Bedrock + Lambda + S3), o ajustas el CV para liderar con
-   lo que SÍ dominas (Modal/Supabase/serverless) y poner AWS como "familiaridad". **Honestidad = credibilidad.**
-2. **OpenAI / Anthropic (media):** dominas Groq, pero la mayoría de ofertas nombran OpenAI/Claude.
+1. **OpenAI / Anthropic (media):** dominas Groq, pero la mayoría de ofertas nombran OpenAI/Claude.
    → Acción: porta uno de tus proyectos a OpenAI o Claude (1 día) para poder decir "experiencia con ambos".
-3. **Kubernetes (media-baja):** aparece en ofertas enterprise/MLOps.
+2. **Kubernetes (media-baja):** aparece en ofertas enterprise/MLOps.
    → Acción: dockerizas (ya sabes) + un despliegue básico en K8s para tener el término defendible.
-4. **Evals formales (media):** tienes LangSmith; formaliza un harness de evaluación con métricas
+3. **Evals formales (media):** tienes LangSmith; formaliza un harness de evaluación con métricas
    (accuracy/alucinación) en un repo público → es oro en entrevistas de IA.
-5. **Pinecone/Qdrant (baja):** ya dominas pgvector/Chroma; tocar Pinecone una vez cubre la keyword.
+4. **Pinecone/Qdrant (baja):** ya dominas pgvector/Chroma; tocar Pinecone una vez cubre la keyword.
+
+> ✅ **AWS YA NO es gap:** confirmaste uso real de Lambda + Bedrock, y tienes certificaciones de GCP.
+> Tu cloud es ahora una fortaleza dual (AWS + GCP), no una debilidad.
 
 > Filosofía acordada: con fundamentos sólidos + IA, cerrar un gap es cuestión de días, no meses.
 > Pero NO escribas en el CV nada que no hayas tocado de verdad: primero construyes, luego lo declaras.

@@ -24,7 +24,8 @@
 | 07 | `07-plan-30-dias.md` | Plan de acción diario/semanal de 30 días. | Para ejecutar día a día. |
 | 08 | `08-stack-tecnico-ia.md` | Stack de IA/chatbots/voz, proyectos demo a construir. | Para preparar pruebas técnicas y proyectos. |
 | 09 | `09-core-stack-yeison.md` | Core stack REAL de Yeison + stack más demandado 2026 + gaps. | Al posicionar skills / preparar screens. |
-| 10 | `10-cv-corregido.md` | CV reescrito (ATS + senior) con incoherencias corregidas. | Al postular / adaptar el CV. |
+| 10 | `10-cv-corregido.md` | CV final (ATS + senior) confirmado, con certificaciones y proyectos. | Al postular / adaptar el CV. |
+| 11 | `11-salario-y-negociacion.md` | Rangos de mercado 2026 + estrategia y guiones de negociación. | Antes de hablar de salario. |
 
 ---
 
