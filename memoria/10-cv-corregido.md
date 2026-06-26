@@ -65,7 +65,8 @@ Glovar Services S.A.S | Remoto | 2025 – May 2026
 
 Freelance AI Engineer (RAG & NLP Systems)
 Remoto | 2025 – 2026
-- OmniRetail — Agente conversacional de ventas retail con RAG sobre datos transaccionales (SQLite) y
+- OmniRetail — Agente conversacional de ventas retail. Inició como challenge (Finalista Top 5 de 50) y
+  evolucionó a proyecto freelance: RAG híbrido sobre datos transaccionales (SQLite + ChromaDB) con
   Strands Agents SDK + Groq (Qwen3-32B); arquitectura stateless con aislamiento de identidad por
   usuario, guardrails de salida y jerarquía de la verdad (SQL > RAG) para eliminar respuestas inventadas.
 - Mediscribe — Pipelines de datos en Python para extraer, estructurar y clasificar registros de texto

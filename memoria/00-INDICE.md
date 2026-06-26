@@ -27,6 +27,7 @@
 | 10 | `10-cv-corregido.md` | CV final (ATS + senior) confirmado, con certificaciones y proyectos. | Al postular / adaptar el CV. |
 | 11 | `11-salario-y-negociacion.md` | Rangos de mercado 2026 + estrategia y guiones de negociación. | Antes de hablar de salario. |
 | 12 | `12-linkedin-perfil-yeison.md` | Perfil de LinkedIn optimizado, listo para pegar (titular, About, experiencia). | Al optimizar LinkedIn. |
+| 13 | `13-calendario-y-posts-yeison.md` | Calendario de 4 semanas + 10 posts redactados en su voz + estilo anti-IA. | Al publicar contenido. |
 
 ---
 
