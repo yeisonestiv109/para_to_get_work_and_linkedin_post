@@ -23,6 +23,8 @@
 | 06 | `06-plan-contenido-posts.md` | Pilares, calendario, plantillas y ganchos de posts. | Al planear/escribir posts. |
 | 07 | `07-plan-30-dias.md` | Plan de acción diario/semanal de 30 días. | Para ejecutar día a día. |
 | 08 | `08-stack-tecnico-ia.md` | Stack de IA/chatbots/voz, proyectos demo a construir. | Para preparar pruebas técnicas y proyectos. |
+| 09 | `09-core-stack-yeison.md` | Core stack REAL de Yeison + stack más demandado 2026 + gaps. | Al posicionar skills / preparar screens. |
+| 10 | `10-cv-corregido.md` | CV reescrito (ATS + senior) con incoherencias corregidas. | Al postular / adaptar el CV. |
 
 ---
 
