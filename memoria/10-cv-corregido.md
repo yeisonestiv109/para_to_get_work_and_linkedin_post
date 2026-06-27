@@ -53,7 +53,7 @@ CORE TECHNICAL SKILLS
 PROFESSIONAL EXPERIENCE
 
 Lead AI Engineer (Agentic Workflows & Voice AI)
-Glovar Services S.A.S | Remoto | 2025 – May 2026
+Glovar Services S.A.S | Remoto | abr. 2025 – jun. 2026
 - Diseñé y desplegué a producción "Glovar Prospector", una plataforma B2B de prospección autónoma
   multi-agente, sobre FastAPI + Modal serverless (autoescalado) + Supabase/PostgreSQL con RLS.
 - Construí un motor agéntico con LangGraph y tool-calling estricto + capas de evaluación de prompts

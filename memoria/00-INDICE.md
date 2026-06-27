@@ -28,6 +28,8 @@
 | 11 | `11-salario-y-negociacion.md` | Rangos de mercado 2026 + estrategia y guiones de negociación. | Antes de hablar de salario. |
 | 12 | `12-linkedin-perfil-yeison.md` | Perfil de LinkedIn optimizado, listo para pegar (titular, About, experiencia). | Al optimizar LinkedIn. |
 | 13 | `13-calendario-y-posts-yeison.md` | Calendario de 4 semanas + 10 posts redactados en su voz + estilo anti-IA. | Al publicar contenido. |
+| 14 | `14-vacantes-y-sistema-busqueda.md` | Validación LinkedIn, vacantes/empresas objetivo, plataformas, strings de búsqueda, tracker. | Al buscar y aplicar a vacantes. |
+| 15 | `15-recomendaciones-extra.md` | Recomendaciones extra priorizadas (screen técnico, USD, GitHub, etc.). | Como checklist de lo que falta. |
 
 ---
 
