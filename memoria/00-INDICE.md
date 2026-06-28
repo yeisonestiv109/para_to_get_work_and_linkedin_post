@@ -45,3 +45,12 @@ generamos ingresos y reducimos tiempo construyendo chatbots, agentes de voz y ag
 2. Cuando agreguemos un archivo nuevo → registrarlo en la tabla de arriba.
 3. Mantener cada archivo enfocado en su categoría (no mezclar temas).
 4. Fechar las decisiones importantes para tener trazabilidad.
+
+
+---
+
+## 📁 Carpetas adicionales (postulaciones específicas)
+
+- `aspiracion-proyecto-success/` — Postulación al Curso Internacional GDSD (Proyecto SUCCESS,
+  Erasmus+ / Unicauca). Contiene su memoria (`00-memoria-success.md`), carta de compromiso,
+  carta de motivación (EN) y hoja de vida adaptada. Cierre de convocatoria: ~26–28 jul 2026.
