@@ -31,6 +31,7 @@
 | 14 | `14-vacantes-y-sistema-busqueda.md` | Validación LinkedIn, vacantes/empresas objetivo, plataformas, strings de búsqueda, tracker. | Al buscar y aplicar a vacantes. |
 | 15 | `15-recomendaciones-extra.md` | Recomendaciones extra priorizadas (screen técnico, USD, GitHub, etc.). | Como checklist de lo que falta. |
 | 16 | `16-historial-aplicaciones.md` | Tracker de todas las aplicaciones + estados para graficar el embudo. | Cada vez que apliquemos o avancemos. |
+| 17 | `17-guion-entrevista-ingles.md` | Guion de entrevista en inglés (STAR + técnico) con respuestas modelo. | Antes de cualquier entrevista. |
 
 ---
 

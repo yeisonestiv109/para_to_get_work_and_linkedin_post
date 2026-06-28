@@ -7,7 +7,7 @@
 - **Evento:** Hackathon Talento Tech Región 3 (Cauca–Nariño), MinTIC / UT UTP-FaceIT.
 - **Formato:** presencial, equipos de **3 a 5 personas**, **18 horas** de desarrollo, reto revelado al inicio.
 - **Fecha de cierre/final:** 08 de mayo de 2026.
-- **Resultado:** **8.º lugar** (Top 10). ⚠️ Confirmar en la constancia si dice "8.º lugar" (= Top 10,
+- **Resultado:** **7.º lugar** (Top 10). ⚠️ Confirmar en la constancia si dice "7.º lugar" (= Top 10,
   válido para los 5 pts de HV) o "octavos de final"/ronda (matiz distinto). Importa para SUCCESS.
 - Criterios del evento: mínimo 70% de avance en plataforma para evaluar; finalistas presentan pitch;
   desempate por puntualidad e inclusión de mujeres/comunidad diversa.

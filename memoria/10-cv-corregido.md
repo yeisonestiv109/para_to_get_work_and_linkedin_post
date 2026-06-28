@@ -82,6 +82,10 @@ Universidad del Cauca | Popayán, Colombia | 2025 – Actual
   amenazas zero-day; tracing y evaluación con LangSmith.
 
 SELECTED PROJECTS
+- WilsonAI (Hackathon Talento Tech Región 3 — 7º lugar / Top 10, equipo, 18h): plataforma móvil/web con
+  IA para optimizar el rescate, triage y seguimiento de animales de calle en Popayán. Reporte multimodal
+  (voz/texto/imagen) offline-first con sincronización, alertas tempranas con IA, geolocalización a
+  veterinaria/refugio más cercano y trazabilidad clínica. Construida en 18 horas.
 - VitaminD (IoT + IA): prototipo de monitoreo de estrés que integra hardware sensor, IA y plataforma
   de asistencia profesional (Universidad del Cauca).
 - RutaYA: backend en Flask + dashboard para una app de transporte público en Popayán (estimación de

@@ -60,7 +60,7 @@ Evidencia de rigor técnico y resultados medibles.
   [Soporte: constancia de semillero/grupo de investigación — adjunta]
 
 PROYECTOS Y LOGROS DESTACADOS (trabajo en equipo y amplitud técnica)
-- WilsonAI — Hackathon Talento Tech Región 3 (8.º lugar / Top 10, equipo, 18 horas, presencial; may. 2026).
+- WilsonAI — Hackathon Talento Tech Región 3 (7.º lugar / Top 10, equipo, 18 horas, presencial; may. 2026).
   Plataforma móvil y web con IA para optimizar el rescate, triage y seguimiento de animales en condición
   de calle en Popayán (reto "Patas Conectadas: Bienestar Animal y Salud Pública"). Desarrollada junto a
   mi equipo en 18 horas: reporte multimodal (voz, texto, imagen) con enfoque offline-first y
