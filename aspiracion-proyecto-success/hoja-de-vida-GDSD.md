@@ -59,9 +59,17 @@ Evidencia de rigor técnico y resultados medibles.
   evaluación y trazabilidad con LangSmith.
   [Soporte: constancia de semillero/grupo de investigación — adjunta]
 
-PROYECTOS DESTACADOS (trabajo en equipo y amplitud técnica)
-- VitaminD — Prototipo IoT + IA para monitoreo de estrés (proyecto en equipo con compañeros de la
-  Universidad del Cauca): integración de hardware sensor, modelo de IA y plataforma de asistencia.
+PROYECTOS Y LOGROS DESTACADOS (trabajo en equipo y amplitud técnica)
+- WilsonAI — Hackathon Talento Tech Región 3 (8.º lugar / Top 10, equipo, 18 horas, presencial; may. 2026).
+  Plataforma móvil y web con IA para optimizar el rescate, triage y seguimiento de animales en condición
+  de calle en Popayán (reto "Patas Conectadas: Bienestar Animal y Salud Pública"). Desarrollada junto a
+  mi equipo en 18 horas: reporte multimodal (voz, texto, imagen) con enfoque offline-first y
+  sincronización automática, análisis con IA para alertas tempranas y priorización de casos,
+  geolocalización para conectar con la veterinaria/refugio más cercano y trazabilidad clínica.
+  Diseño orientado a datos y a estándares de salud (HL7/FHIR) y seguridad de información (ISO 27001).
+  [Soporte: constancia del hackathon — adjunta]
+- VitaminD — Prototipo IoT + IA para monitoreo de estrés (proyecto en equipo, Universidad del Cauca):
+  integración de hardware sensor, modelo de IA y plataforma de asistencia.
 - RutaYA — Backend en Flask y dashboard para una app de transporte público en Popayán: estimación de
   rutas, cálculo de tarifas y seguimiento de buses en tiempo real vía API REST.
 - Controlador SDN — Plano de control con Ryu sobre topología NSFNET (Mininet), enrutamiento con NetworkX

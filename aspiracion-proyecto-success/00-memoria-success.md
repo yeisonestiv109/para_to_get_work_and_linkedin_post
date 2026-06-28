@@ -54,9 +54,10 @@
   laboral a Glovar** para soportarlo. Con eso, marca la casilla. → 5 pts.
 - 🟡 **Semillero (mínimo 6 meses):** tu investigación de Edge AI (Universidad del Cauca, ~jun 2025–mar
   2026 = >6 meses). → **pide constancia al profesor/grupo de investigación**. Si te la dan, marca. → 5 pts.
-- 🟡 **Top 10 hackáthon:** tienes constancia de 1 hackathon (proyecto pettech). **Solo marca esta casilla
-  si la constancia indica que quedaste entre los 10 mejores.** Si fue solo participación, NO la marques
-  (o consigue constancia del challenge OmniRetail Top 5/50 si aplica como hackathon). → 5 pts si aplica.
+- 🟢 **Top 10 hackáthon:** SÍ — **WilsonAI, 8.º lugar** en la Hackathon Talento Tech Región 3 (may. 2026).
+  8.º lugar = Top 10 → marca la casilla y adjunta la constancia. ⚠️ Confirma que la constancia diga
+  "8.º lugar"/posición (Top 10 válido) y no "octavos de final"/ronda. Contexto completo en
+  `contexto-hackathon-wilsonai.md`. → 5 pts.
 
 > Regla de oro: marcar una casilla sin soporte = riesgo de descalificación por veracidad. Solo lo defendible.
 
