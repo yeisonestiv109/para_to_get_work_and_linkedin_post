@@ -20,6 +20,7 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 | 3 | Vozy | Technical Agent Developer (rol intern) | Remoto · Medellín | Web (BambooHR) | _por definir_ | Empresa **Alta** / rol **Bajo** | Por aplicar | Empresa = tu nicho de voz. El puesto publicado es de prácticas; apuntar a rol mid/senior o networking. |
 | 4 | 5411 Hub (cliente confidencial) | Generative AI Engineer | Remoto · LATAM | Web (5411 Hub) | _por definir_ | Alto | Por aplicar | Inglés bilingüe EXCLUYENTE. Corregir form: inglés "B2+" (no "Average"), experiencia "3+" (no 2). |
 | 5 | VASS LATAM | Claude Backend Developer (Senior) | Remoto · US-facing | LinkedIn | _por definir_ | **Bajo/Stretch** | Evaluar | 🚩 Pide **5+ años Python backend** y **tarjeta profesional** (eres estudiante) → 2 gates duros. Fuerte en seguridad LLM (sus certs) y Claude vía Bedrock. Mejor por mensaje directo a la reclutadora. |
+| 6 | Siigo S.A.S | AI Engineer Sr | Remoto · Colombia | Portal Siigo | _por definir_ | **Medio-Alto** | Por aplicar | Fit fuerte en LLM/RAG/agentes/fine-tuning (LoRA/QLoRA/HF). Gaps: **Golang** (valorado) y **Azure** (tiene AWS/GCP). Pide 3-4 años → cumple. Selene aporta ágil/equipo/datos. |
 
 > Actualiza "Fecha aplicación" y "Estado" cada vez que avances. Añade filas nuevas debajo.
 
@@ -29,7 +30,7 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 
 | Estado | Cantidad |
 |--------|----------|
-| Por aplicar | 4 |
+| Por aplicar | 5 |
 | Evaluar (gates duros) | 1 |
 | Aplicado | 0 |
 | Screening (RH) | 0 |
