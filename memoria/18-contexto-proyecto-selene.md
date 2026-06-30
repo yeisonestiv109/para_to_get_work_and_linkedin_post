@@ -36,9 +36,24 @@ Dejar operativa Open edX cumpliendo los requisitos del **MEN (Ministerio de Educ
 - **Datos/Analítica:** pipeline de recolección y procesamiento de datos de uso (Aspects), métricas y reportes.
 - **Requisitos y cumplimiento:** levantamiento de requerimientos y cumplimiento normativo (MEN).
 
-## ⚠️ Pendiente de Yeison (para no inventar)
-- **Confirmar tu rol exacto** en Selene (¿Acceso/Infra, Analíticas, Funcionalidades, ORA…?) y tus
-  contribuciones puntuales, para describirlo con precisión en el CV.
+## ✅ Rol y contribución real de Yeison (confirmado en el PDF)
+Yeison trabajó en **Cumplimiento regulatorio** y luego en **Analíticas/Datos**:
+- **Cumplimiento (HU-03):** investigó los requisitos del **MEN** (Ministerio de Educación) para
+  plataformas híbridas y obtener "Registro Calificado"; **redactó el documento oficial de
+  requerimientos** y cruzó cada requisito contra lo que Open edX ofrece de forma nativa (cumplido /
+  parcial / no cumplido) citando decretos/resoluciones. Otros equipos desplegaron "según el documento
+  redactado por Yeison".
+- **Analíticas (HU-11, HU-12, HU-13) — stack de datos:** instaló y configuró **Aspects**
+  (`tutor-contrib-aspects`, basado en Tutor/Docker) con **ClickHouse** (almacén analítico) y **Superset**
+  (BI); construyó **dashboards de métricas para docentes** (estudiantes inscritos, progreso, tasa de
+  finalización, actividad), habilitó la **exportación de reportes** y resolvió conflictos de rutas del
+  proxy para el despliegue en el servidor final. Documentó el proceso e hizo inventario de XBlocks/plugins.
+
+## 🎯 Por qué es oro para Siigo
+- **Pipeline de datos / analítica (ClickHouse + Superset)** → encaja con "pipelines de datos" y BI.
+- **Cumplimiento normativo (MEN)** → Siigo es software contable/tributario; la normativa es central.
+- **Despliegue con Tutor/Docker** → suma a "DevOps (Docker)".
+- **Trabajo en equipo grande (10 personas, squads) bajo Scrum** → madurez de ingeniería.
 
 ## Uso estratégico por vacante
 - **Siigo / roles con equipo grande y ágil:** úsalo para demostrar Scrum, trabajo en equipo y, si tu rol
