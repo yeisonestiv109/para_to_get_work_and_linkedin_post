@@ -61,5 +61,8 @@ preview → entrega + cómo subir a Hostinger.
 - [x] SKILL leída y resumida.
 - [x] Referencia analizada (gazijarin = inspiración estética, no base técnica).
 - [x] Prompt adaptado creado (`prompt-portfolio-adaptado.md`).
-- [ ] Confirmar con Yeison: arquetipo (05 vs 03), tagline, idioma, dominio, ¿CV descargable?
-- [ ] Construir la web siguiendo la skill.
+- [x] Decisiones confirmadas: arquetipo 05, acento cian #3DE2FF, bilingüe ES/EN, CV descargable, deploy Vercel.
+- [x] **Web construida** en `web-portfolio/site/` (index.html, styles.css, main.js, lib/manifest.js,
+  lib/gsap+ScrollTrigger, .htaccess, README, assets/cv). Verificada con `verify_project.py`: 0 errores.
+- [ ] Yeison: subir su CV en `assets/cv/Yeison_Delgado_CV.pdf` y desplegar en Vercel.
+- [ ] (Opcional) añadir favicon/og-image y fotos reales.
