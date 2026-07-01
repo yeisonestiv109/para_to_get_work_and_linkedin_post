@@ -21,6 +21,7 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 | 4 | 5411 Hub (cliente confidencial) | Generative AI Engineer | Remoto · LATAM | Web (5411 Hub) | _por definir_ | Alto | Por aplicar | Inglés bilingüe EXCLUYENTE. Corregir form: inglés "B2+" (no "Average"), experiencia "3+" (no 2). |
 | 5 | VASS LATAM | Claude Backend Developer (Senior) | Remoto · US-facing | LinkedIn | _por definir_ | **Bajo/Stretch** | Evaluar | 🚩 Pide **5+ años Python backend** y **tarjeta profesional** (eres estudiante) → 2 gates duros. Fuerte en seguridad LLM (sus certs) y Claude vía Bedrock. Mejor por mensaje directo a la reclutadora. |
 | 6 | Siigo S.A.S | AI Engineer Sr | Remoto · Colombia | Portal Siigo | _por definir_ | **Medio-Alto** | Por aplicar | Fit fuerte en LLM/RAG/agentes/fine-tuning (LoRA/QLoRA/HF). Gaps: **Golang** (valorado) y **Azure** (tiene AWS/GCP). Pide 3-4 años → cumple. Selene aporta ágil/equipo/datos. |
+| 7 | Inlaze | IA Engineer (automatizaciones · N8N · agentes) | Remoto · Contractor USD | Portal Inlaze | _por definir_ | **Medio/Stretch** | Por aplicar | iGaming. Fuerte: agentes IA + integración de APIs + React/Next + DBs. Gaps: **N8N** (must-have, no lo tiene → rampar ya) y **Node backend "real"** (su base es Python). Aplicación = 6 preguntas técnicas (el filtro real). |
 
 > Actualiza "Fecha aplicación" y "Estado" cada vez que avances. Añade filas nuevas debajo.
 
@@ -30,7 +31,7 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 
 | Estado | Cantidad |
 |--------|----------|
-| Por aplicar | 5 |
+| Por aplicar | 6 |
 | Evaluar (gates duros) | 1 |
 | Aplicado | 0 |
 | Screening (RH) | 0 |
