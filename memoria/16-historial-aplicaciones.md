@@ -22,8 +22,24 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 | 5 | VASS LATAM | Claude Backend Developer (Senior) | Remoto · US-facing | LinkedIn | _por definir_ | **Bajo/Stretch** | Evaluar | 🚩 Pide **5+ años Python backend** y **tarjeta profesional** (eres estudiante) → 2 gates duros. Fuerte en seguridad LLM (sus certs) y Claude vía Bedrock. Mejor por mensaje directo a la reclutadora. |
 | 6 | Siigo S.A.S | AI Engineer Sr | Remoto · Colombia | Portal Siigo | _por definir_ | **Medio-Alto** | Por aplicar | Fit fuerte en LLM/RAG/agentes/fine-tuning (LoRA/QLoRA/HF). Gaps: **Golang** (valorado) y **Azure** (tiene AWS/GCP). Pide 3-4 años → cumple. Selene aporta ágil/equipo/datos. |
 | 7 | Inlaze | IA Engineer (automatizaciones · N8N · agentes) | Remoto · Contractor USD | Portal Inlaze | _por definir_ | **Medio/Stretch** | Por aplicar | iGaming. Fuerte: agentes IA + integración de APIs + React/Next + DBs. Gaps: **N8N** (must-have, no lo tiene → rampar ya) y **Node backend "real"** (su base es Python). Aplicación = 6 preguntas técnicas (el filtro real). |
+| 8 | Creatio | AI Software Engineer (Agent Platform) | Remoto · Global | Web (form Creatio) | _por definir_ | **Medio/Stretch** | Por aplicar | Vendor global de CRM agéntico no-code. Fit ALTO en IA: agentes, tool-calling, RAG, semantic search, embeddings, MCP, copilots, evals/quality gates, observabilidad, cost/latency, Responsible AI, guardrails, permisos, escalado a humano. **Gate duro: piden "strong C# y .NET"** (su base es Python/FastAPI+TS/NestJS → no inventar C#, framear transferibilidad + ramp-up). K8s solo "basic". Form pide: nombre, apellido, email, tel, CV (pdf/doc/docx), LinkedIn (obligatorio). |
+
+| 9 | Zemsania | Agentic AI Developer (Semi Senior) | 100% Remoto · Colombia · nómina | LinkedIn (recruiter) | _por definir_ | **Muy Alto (95%)** | Por aplicar | 🎯 BULLSEYE. Piden Python, LangChain avanzado, prompts versionables, multi-repo, APIs, LangGraph, patrones agénticos, **A2A + MCP**, fundamentos LLM + gestión de riesgos, observabilidad + testing de workflows agénticos. Aplicar a **trada@zemsania.com** / 3160177125. CV: `Yeison_Delgado_AI_Agent_Engineer.pdf`. Revisar MCP/A2A antes de entrevista. |
+| 10 | (Confidencial vía recruiter) | Senior AI Agent Engineer | 100% Remoto · Colombia | LinkedIn | _por definir_ | **Muy Alto (95%)** | Por aplicar | Casi idéntica a Zemsania (LangGraph estados/routing/fallback, prompts versionables, multi-repo, APIs/MCP/A2A, eval calidad). Mismo CV que #9. Probablemente misma empresa/cliente. |
+| 11 | (Confidencial vía María F. Spirito) | AI Software Engineer | 100% Remoto · residentes Bogotá/CDMX/GDL | LinkedIn (recruiter) | _por definir_ | **Alto técnico (85%)** | Por aplicar | Python Y/O .NET + GenAI (GPT/Claude/Llama) + agentes + cloud. 🔴 GATES: ubicación (piden Bogotá, Yeison en Popayán → framear reubicación) + **inglés C1 excluyente** (es B2+, no inflar). CV inglés: `Yeison_Delgado_AI_Software_Engineer.pdf`. Aplicar por mensaje directo a la recruiter siendo transparente en ubicación. |
+| 12 | TP (Teleperformance) | Desarrollador Full Stack IA | 100% Remoto · Colombia · horario España | LinkedIn (Paula Plazas) | _por definir_ | **Medio (70%)** | Por aplicar | Python, IA Conversacional, NLP/NLU, GCP, APIs/microservicios, Node/TS, React, Docker/K8s/GitHub Actions. Inglés B1 (fácil). 🔴 GATES: **Genesys Cloud** (no lo tiene → framear voz Twilio/Deepgram como transferible), 3-5 años, horario madrugada Colombia. Deseable RASA. CV: `Yeison_Delgado_FullStack_IA.pdf`. 266 candidatos (alta competencia). |
+
+| 13 | Allied Global Technology Services | AI Forward Deployed Engineer | Remoto · LATAM (anuncio contradice "Presencial Bogotá" → aclarar) · contractor | LinkedIn / ana.aa@alliedglobal.com | Aplicado (jul 2026) | **Alto** | 🎉 **Entrevista (screening RH)** — vía Teams con **Maria Colindres** | 🥇 PRIMERA ENTREVISTA DEL PROYECTO. Fit fuerte: Python, LLMs (OpenAI/Anthropic/Gemini), RAG+vector+semantic, agentes (LangGraph/LangChain), APIs producción, cloud, SQL. Gates: 4+ años (framear "3+ impacto"), LlamaIndex/CrewAI (equivalentes a lo que usa). Empresa = BPO+TI+IA para clientes (Guatemala, GMT-6). Guion completo + salario + traducción en `memoria/19`. ⚠️ GMT-6 = Colombia +1h. |
 
 > Actualiza "Fecha aplicación" y "Estado" cada vez que avances. Añade filas nuevas debajo.
+
+---
+
+## 🏆 Oportunidades NO-empleo (rastrear aparte)
+- **Hackathon Presidencial de Taiwán — International Track 2026** (vía Marcos A. Ferreira). Convocatoria
+  de soluciones con IA para desafíos reales. 📅 Deadline de inscripción: **31 jul 2026**. Premio: vuelos
+  + alojamiento en Taiwán para 2 integrantes de equipos ganadores. → Encaja con tu perfil de IA aplicada;
+  vale armar equipo (¿Selene?) e inscribir antes de la fecha. No requiere CV adaptado.
 
 ---
 
@@ -31,10 +47,10 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 
 | Estado | Cantidad |
 |--------|----------|
-| Por aplicar | 6 |
+| Por aplicar | 11 |
 | Evaluar (gates duros) | 1 |
-| Aplicado | 0 |
-| Screening (RH) | 0 |
+| Aplicado | 1 |
+| Screening (RH) / Entrevista | 1 (Allied Global 🎉) |
 | Entrevista técnica | 0 |
 | Entrevista final | 0 |
 | Negociación | 0 |

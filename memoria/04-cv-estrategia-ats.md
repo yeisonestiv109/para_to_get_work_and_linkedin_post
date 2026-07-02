@@ -94,3 +94,44 @@ Integré · Migré · Lancé · Mentoré · Definí · Desplegué.
 - [ ] ¿1–2 páginas, fechas mes/año?
 - [ ] ¿Nombre de archivo profesional?
 - [ ] ¿Pasaste un test ATS gratuito (ej. Jobscan) y revisaste el match?
+
+
+---
+
+## 🆕 Actualización 2026 (investigación web, verificada 2026-07-01)
+
+> Contrastamos la estrategia con 20+ fuentes de 2026 (career centers universitarios, guías ATS y de
+> SWE resumes). **Todo lo anterior sigue vigente.** Lo que CAMBIA o se REFUERZA en 2026:
+
+### Lo que se confirma (no tocar)
+- Una columna, encabezados estándar, fuentes de sistema, PDF de **texto seleccionable** o `.docx`.
+  Sin tablas, cajas de texto, iconos ni multicolumna tipo Canva (75% de rechazos son por formato).
+- Fechas **MM/AAAA** o "Mes Año" (los parsers calculan la antigüedad; "Verano 2023" penaliza).
+- Métricas de impacto (%, $, volumen) = el factor #1 para early-career. Cada bullet: verbo + qué + número.
+- Espejar las **frases exactas** de la oferta; adoptar el vocabulario de la empresa.
+
+### Lo NUEVO de 2026 (integrar sí o sí)
+1. **Keywords en TÍTULOS y subtítulos, no solo en bullets.** El ATS escanea de arriba-abajo y prioriza
+   títulos de sección y de puesto. → Poner el foco funcional en el cargo:
+   `AI Software Engineer — Agentic Workflows, RAG, LLMOps` (no solo "AI Software Engineer").
+2. **Ahora hay "AI summarizers" encima del ATS** (Workday/Greenhouse + capa LLM). Leen distinto al
+   scanner de keywords de hace 10 años: **exigen contexto y coherencia narrativa**, no relleno de
+   keywords. → "Demostrar contexto, no contar keywords": cada término debe estar respaldado por una
+   frase que muestre cómo lo usaste y qué lograste.
+3. **Espejar la FRECUENCIA/prominencia de términos** de la oferta (si "LangGraph" y "MCP" se repiten,
+   deben aparecer arriba y más de una vez, con naturalidad).
+4. **Una página** hasta ~10 años de experiencia (early-career = 1 pág ideal; 2 solo si sobra sustancia).
+5. **Traducir el background a los términos del empleador** (si dicen "A2A", no escribir solo
+   "agente-a-agente"; usar su sigla exacta).
+
+### Regla de oro reforzada
+> El ATS + el AI-summarizer te meten a la sala; **mentir te saca en el screen técnico (92% falla ahí)**.
+> Solo va lo defendible con un proyecto real. Primero construyes, luego lo declaras.
+
+### Fuentes (parafraseado para cumplir licencias)
+- [The 6-second scan: 2026 resume filter – UConn Career](https://career.uconn.edu/blog/2026/03/09/the-6-second-scan-how-to-pass-the-2026-resume-filter/)
+- [18 resume changes to get past ATS – UMass Lowell / College Recruiter](https://career.uml.edu/blog/2026/06/11/18-resume-changes-you-should-make-to-get-past-the-ats-filtersand-why/)
+- [ATS Resume Guide 2026: Workday/Greenhouse/AI screeners – zapresume.io](https://zapresume.io/ats-resume)
+- [How to Write an ATS Resume in 2026 – simplify.jobs](https://simplify.jobs/blog/how-to-write-ats-resume-2026)
+- [Software Engineer Resume 2026 – articuler.ai](https://www.articuler.ai/resources/guides/software-engineer-resume/)
+- [Achievement-driven bullets for SWE 2026 – resumly.ai](https://resumly.ai/blog/writing-achievementdriven-bullet-points-for-swe-in-2025)
