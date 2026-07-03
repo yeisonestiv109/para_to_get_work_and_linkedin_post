@@ -29,7 +29,10 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 | 11 | (Confidencial vía María F. Spirito) | AI Software Engineer | 100% Remoto · residentes Bogotá/CDMX/GDL | LinkedIn (recruiter) | _por definir_ | **Alto técnico (85%)** | Por aplicar | Python Y/O .NET + GenAI (GPT/Claude/Llama) + agentes + cloud. 🔴 GATES: ubicación (piden Bogotá, Yeison en Popayán → framear reubicación) + **inglés C1 excluyente** (es B2+, no inflar). CV inglés: `Yeison_Delgado_AI_Software_Engineer.pdf`. Aplicar por mensaje directo a la recruiter siendo transparente en ubicación. |
 | 12 | TP (Teleperformance) | Desarrollador Full Stack IA | 100% Remoto · Colombia · horario España | LinkedIn (Paula Plazas) | _por definir_ | **Medio (70%)** | Por aplicar | Python, IA Conversacional, NLP/NLU, GCP, APIs/microservicios, Node/TS, React, Docker/K8s/GitHub Actions. Inglés B1 (fácil). 🔴 GATES: **Genesys Cloud** (no lo tiene → framear voz Twilio/Deepgram como transferible), 3-5 años, horario madrugada Colombia. Deseable RASA. CV: `Yeison_Delgado_FullStack_IA.pdf`. 266 candidatos (alta competencia). |
 
-| 13 | Allied Global Technology Services | AI Forward Deployed Engineer | Remoto · LATAM (anuncio contradice "Presencial Bogotá" → aclarar) · contractor | LinkedIn / ana.aa@alliedglobal.com | Aplicado (jul 2026) | **Alto** | 🎉 **Entrevista (screening RH)** — vía Teams con **Maria Colindres** | 🥇 PRIMERA ENTREVISTA DEL PROYECTO. Fit fuerte: Python, LLMs (OpenAI/Anthropic/Gemini), RAG+vector+semantic, agentes (LangGraph/LangChain), APIs producción, cloud, SQL. Gates: 4+ años (framear "3+ impacto"), LlamaIndex/CrewAI (equivalentes a lo que usa). Empresa = BPO+TI+IA para clientes (Guatemala, GMT-6). Guion completo + salario + traducción en `memoria/19`. ⚠️ GMT-6 = Colombia +1h. |
+| 13 | Allied Global Technology Services | AI Forward Deployed Engineer | Remoto · LATAM (anuncio contradice "Presencial Bogotá") · contractor | LinkedIn / ana.aa@alliedglobal.com | Aplicado (jul 2026) | **Alto** | ✅ **Entrevista realizada (screening RH) — esperando respuesta** | 🥇 PRIMERA ENTREVISTA DEL PROYECTO. Entrevista con Maria Colindres vía Teams hecha (jul 2026). Yeison quedó a la espera de que ellos contacten; sensación mixta. Fit fuerte (Python/LLMs/RAG/agentes/APIs/cloud/SQL). Guion + salario + traducción en `memoria/19`. Próximo: si en ~1 semana no hay respuesta, enviar follow-up cordial a Maria. |
+| 14 | Nimble Gravity | AI Engineer — IA Generativa y Sistemas Agénticos | 100% Remoto · Colombia (excluyente) | LinkedIn (fuera de LinkedIn) | _por definir_ | **Muy Alto (~90%)** | Por aplicar | 🎯 Casi 1:1. Consultora de Data & IA (client-facing). Piden LLMs, RAG, embeddings, vector DBs, semantic search, IA multimodal, agentes, LangChain/LangGraph, HuggingFace, PyTorch, MCP, multiagente, cloud (Azure/AWS/Databricks). NO requiere inglés + solo Colombia = MENOS competencia. Plus: fine-tuning, LLM eval, observabilidad, consultoría. Gaps leves: Azure/Databricks (tiene AWS/GCP → transferible). CV ES: `Yeison_Delgado_AI_Engineer_NimbleGravity.pdf`. |
+| 15 | Hire Feed (QuikHire) | AI Engineer — RLHF / AI Training (evaluar código IA) | 100% Remoto · async · LATAM · contrato por obra | LinkedIn (fuera de LinkedIn) | _por definir_ | **Alto (fit fácil)** | Por aplicar | 💵 Ingreso en USD mientras busca ($34/h + ~7.5% incentivos, pago semanal PayPal/AirTM). Revisar/evaluar código generado por IA, escribir retos de código. Pide SWE (Python/Java/JS/TS/C++/etc) + atención al detalle. No requiere exp. en IA. Bajo compromiso, flexible. CV EN enfocado a SWE/calidad de código: `Yeison_Delgado_SWE_AITrainer.pdf`. Plataformas fuente: Outlier/Mercor/Turing. |
+| 16 | Sezzle | AI Engineer I (Applied AI) | 100% Remoto · Bogotá Colombia | LinkedIn (fuera de LinkedIn) | _por definir_ | **Muy Alto (~88%)** | Por aplicar | 💰 Salario claro: **USD $2,500–3,333/mes bruto**. Fintech BNPL (US). 🎯 Rol "AI Engineer I" pide **1–3 años** = EXACTO su nivel. Piden Python+SQL+React (full-stack), sistemas IA en producción, agentic, **Claude (requerido → vía Bedrock)**, distribuidos. Plus: transformers/embeddings/NLP, vector DBs (pgvector/Pinecone), langchain/graph/n8n, AWS, Docker/**K8s** (K8s gap → honesto), CI/CD GitLab, Golang (plus). Cultura tipo Amazon LP (high standards, bias for action). ⚠️ 1029 candidatos (alta competencia). CV EN: `Yeison_Delgado_AI_Engineer_Sezzle.pdf`. |
 
 > Actualiza "Fecha aplicación" y "Estado" cada vez que avances. Añade filas nuevas debajo.
 
@@ -47,10 +50,10 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 
 | Estado | Cantidad |
 |--------|----------|
-| Por aplicar | 11 |
+| Por aplicar | 14 |
 | Evaluar (gates duros) | 1 |
 | Aplicado | 1 |
-| Screening (RH) / Entrevista | 1 (Allied Global 🎉) |
+| Entrevista realizada (esperando) | 1 (Allied Global) |
 | Entrevista técnica | 0 |
 | Entrevista final | 0 |
 | Negociación | 0 |
