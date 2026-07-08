@@ -43,46 +43,67 @@
 
 ---
 
-## 🎬 GUION DEL VIDEO LOOM (EN) — EL FILTRO DECISIVO
-> Sin video (o grabado), en Colombia NO consideran la aplicación. Objetivo: **~2–2.5 min**, en inglés,
-> mirando a la cámara. Proyecto = el MÁS COMPLEJO. Recomendado: **Glovar Prospector** (producción,
-> multi-agente, client-facing) con el reto técnico centrado en retrieval/agentic + latencia. Alternativa:
-> **OmniRetail** si prefiere liderar con la historia pura de RAG/retrieval accuracy.
+## 🎬 GUION DEL VIDEO LOOM (EN) — EL FILTRO DECISIVO  ·  v2 (storytelling, con fuentes)
+> Sin video (o grabado), en Colombia NO consideran la aplicación. Objetivo: **~2:45**, en inglés,
+> mirando a cámara. Reescrito con storytelling real (no lista de features).
+> Principios (fuentes): arco Situación→Complicación→Resolución (MIT CommLab, Highbridge); hook en 8-12s
+> (LoungeLizard, Quora); anclar cada dato técnico al "por qué" (Stanford talk-recipe); dominio = explicar
+> simple con analogías / Feynman (get-alfred, alibaba lifetips); context engineering ≠ prompt trial-error
+> (Tobi Lütke / Towards Data Science / Augment Code); objeción de precio = reencuadre a ROI con sus
+> números (Ciela.ai, ConsultingSuccess); demo fallida = calma + honestidad + plan con fecha (Juno, Reprise).
+> Los [corchetes] = datos reales de Yeison.
 
-### Estructura (STAR) + guion palabra por palabra (rellena las [métricas] con datos reales)
+**[0:00–0:15 · HOOK con tensión, a cámara]**
+> "The moment that taught me the most about production AI wasn't a technical win. It was a demo that
+> broke — live — in front of a paying client. I'm Yeison, an AI engineer from Colombia, and I want to
+> walk you through that project, because it's exactly the kind of work this role is about."
 
-**(0:00–0:15) Hook + quién soy**
-> "Hi Cadre AI team, I'm Yeison, an AI engineer from Colombia. Over the last year and a half I've
-> shipped production AI systems — agentic workflows and RAG pipelines — not prototypes. Let me walk you
-> through the most complex one."
+**[0:15–0:40 · QUÉ HACÍA, en lenguaje simple]**
+> "The client ran a B2B sales team. Every single day, people burned hours on the same manual grind:
+> digging through thousands of companies to find the few worth contacting, researching each one, and
+> writing that first message. We built an AI system that does that end to end. Think of it as a tireless
+> junior researcher that reads messy, scattered company data, decides who's actually worth pursuing, and
+> drafts the first conversation — around the clock."
 
-**(0:15–0:40) El proyecto + por qué es complejo**
-> "The system is 'Glovar Prospector', a production multi-agent B2B platform. The hard part wasn't a
-> single model call — it was orchestrating multiple agents that call tools and APIs, read and write data,
-> and stay reliable while pulling knowledge from messy, unstructured sources. It had to run at scale,
-> under real latency and cost constraints, in the client's actual environment."
+**[0:40–1:20 · RETO TÉCNICO con analogía = señal de dominio]**
+> "Here's the hard part: that company data is a mess — different formats, half of it unstructured. The
+> naive move is to dump everything into the model and hope. But a language model is like someone with a
+> small desk: pile on too much paper and it starts missing what matters. So the real skill isn't writing
+> a clever prompt — it's context engineering: deciding exactly what lands on that desk for each decision.
+> I used structure-aware chunking, re-ranking, and a strict rule: trust a hard fact from the database
+> over a fuzzy match from a document — the way a journalist checks a primary source before repeating a
+> rumor. That took our answers from 'mostly right' to trustworthy, with hallucinations down to
+> effectively zero on the metrics we tracked."
 
-**(0:40–1:25) El reto técnico + cómo lo resolví (lo más importante)**
-> "Two challenges stood out. First, retrieval quality over messy data: naive chunking gave inconsistent
-> answers. I moved to structure-aware chunking, tuned the embeddings, and added a re-ranking step, plus
-> a strict source hierarchy — structured SQL first, RAG second — with output guardrails. That took
-> hallucinations down to effectively zero on the metrics we tracked. Second, agentic reliability under
-> load: I built the orchestration in LangGraph with explicit state, routing, and fallback, deliberate
-> context-window management so the system degrades gracefully instead of dropping critical information,
-> and a rotating key pool to sustain high concurrency. I benchmarked latency and token cost before and
-> after each change with data, not intuition."
+**[1:20–1:45 · ENTORNO AI-NATIVE]**
+> "Early on I watched how easily a team can lose two weeks just typing prompts and praying. I refused to
+> work that way. I set up an AI-native workflow: living specs and rules the coding assistant reads every
+> time, its context curated so it doesn't drift, and small automated evals so we judged quality with
+> data, not vibes. That turned guesswork into a repeatable engine — and when a piece worked, I abstracted
+> it into a reusable tool so the next build was faster."
 
-**(1:25–1:50) Resultado / impacto de negocio**
-> "The outcome: a system that ran reliably in production, cut token cost, kept latency low on real
-> workloads, and — most importantly — gave answers the client could trust. In a related freelance RAG
-> project, that same retrieval discipline took us to a top-5 finish out of 50 teams before it became a
-> paid engagement."
+**[1:45–2:30 · LO HUMANO — 3 micro-historias]**
+> "But the biggest lessons were human. My team lead wasn't deeply technical, so to defend a key
+> architecture choice I dropped the jargon and drew a picture: 'RAG is just giving the AI an open-book
+> exam with the right pages already flagged.' Once he could see it, he could sell it to the client.
+> Then that demo failed. A real edge case broke it, live. I didn't hide it or make excuses — I paused,
+> owned it, and said: 'This is a genuine edge case; here's exactly why it happened, and here's my plan
+> and the date I'll have it fixed.' That honesty is what bought us two more weeks instead of losing the
+> account.
+> And the objection I'll never forget: 'Why pay for this, when someone here on minimum wage does that and
+> more?' I didn't defend the technology. I used his own numbers: one person handles maybe [X] a day; the
+> system clears that before 9am, every day, with no turnover and nothing to re-train. Framed as return
+> instead of cost, the price stopped being the argument."
 
-**(1:50–2:15) Force-multiplier + cierre (encaja con la cultura de Cadre)**
-> "What I care about beyond one delivery is patterns: when something works, I abstract it into a reusable
-> component so the next build is faster. That's exactly the force-multiplier mindset your role describes,
-> and it's why Cadre stands out to me — you ship real systems, not decks. I'd love to bring this to your
-> team. Thanks for watching."
+**[2:30–2:45 · CIERRE conectando con Cadre]**
+> "We shipped it to production, it ran reliably, and the client stayed. That's the work I love: messy
+> data, real clients, real stakes. It's exactly what Cadre does — ship systems that move the business,
+> not decks. I'd love to build that with you. Thanks for watching."
+
+> ⚠️ Honestidad: rellena los [X] con cifras reales y ajusta a como pasó. Si la demo/objeción fue en
+> OmniRetail (asistente retail), cambia el propósito por "answers customers' product questions over messy
+> catalog data"; el resto funciona igual.
+> ⏱️ Versión <2 min: deja solo la historia de la OBJECIÓN (la más potente) y recorta líder + demo.
 
 ### Tips de grabación (Loom)
 - Trátalo como una entrevista: lugar silencioso, buena luz de frente, cámara a la altura de los ojos.
