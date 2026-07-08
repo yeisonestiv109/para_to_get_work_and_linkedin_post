@@ -19,5 +19,5 @@ into reliable **agents** and **retrieval systems** that cut cost and latency for
 
 📍 Colombia · Remote · English B2+
 💬 Ask me about production RAG, agent reliability, and latency/cost optimization.
-🔗 Portfolio: [PORTFOLIO_URL] · LinkedIn: https://www.linkedin.com/in/estiven-delgado/
+🔗 LinkedIn: https://www.linkedin.com/in/estiven-delgado/
 📫 yeisonestivendelgado109@gmail.com
