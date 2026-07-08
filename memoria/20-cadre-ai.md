@@ -136,3 +136,51 @@
 5. Prepararse para entrevista técnica: RAG optimization (chunking/embeddings/reranking/vector DB choice),
    agentic orchestration (tool selection, memory, failure recovery, context window), IaC/Docker/K8s,
    Claude/Anthropic, y ejemplos con métricas antes/después.
+
+
+---
+
+## 🎥 SHOT-LIST del Loom — qué mostrar en pantalla (SOLO assets seguros)
+
+> Regla de oro: **Glovar Prospector y Última Milla son privados/NDA → NUNCA mostrar su código, logs,
+> datos de cliente, .env, claves, ni LangSmith con nombres de proyecto reales.** Para "mostrar
+> construyendo" usamos lo que YA es público y real: el repo **OmniRetail-Agent** (código tuyo) + los
+> **diagramas Mermaid** de los case studies (arquitectura sin código) + el grafo LangGraph del botnet.
+
+### Héroe visual = OmniRetail-Agent (público, código real y defendible)
+URLs a tener abiertas en pestañas antes de grabar:
+- Repo + diagrama: https://github.com/YeisonDelgado/OmniRetail-Agent
+- Case study Prospector (solo diagrama, para hablar de escala): https://github.com/YeisonDelgado/glovar-prospector-casestudy
+- Grafo LangGraph real: https://github.com/YeisonDelgado/LangGraph_Bootnet_Detection/blob/main/src/graph/workflow.py
+
+### Segundo a segundo (alineado al guion v2)
+| Tiempo | Pantalla | Qué mostrar exactamente |
+|---|---|---|
+| 0:00–0:15 · Gancho | 🎥 Cara completa | La frase de "la demo que falló en vivo". Sin pantalla. Contacto visual. |
+| 0:15–0:40 · Problema | 🖥️ Compartir | Abre en OmniRetail-Agent los datos **mock** `data/csv/` (p. ej. `orders.csv`, `tracking.csv`) o las políticas en `data/policies/*.md`. Es data sintética en repo público = seguro. "Este es el desorden de datos del que hablo." |
+| 0:40–1:20 · Reto técnico | 🖥️ Código real | 1) Muestra el **diagrama Mermaid** del README (motor híbrido + tools). 2) Abre `core/agent.py` → baja al **System Prompt, Regla #15** y pon el cursor en `Ficha Técnica (SQLite) > Política General (RAG)`: ESE es el momento estrella (SQL manda sobre RAG). 3) Abre `core/tool_rag_policies.py` → muestra el bloque de instrucción anti-alucinación + la fuente/cita. 4) (Opcional, para probar LangGraph) abre `workflow.py` del botnet: nodos/edges reales. |
+| 1:20–1:45 · AI-native | 🖥️ Config | Muestra un archivo de reglas/spec de tu entorno (`.cursorrules` / `CLAUDE.md` / `AGENTS.md`) y el **routing gate de 5 ramas** (README §5.1) + `session_context.py` (telemetría de costo/latencia). Mensaje: "contexto ingenierizado + medición con datos, no adivinar prompts". **NO** abras LangSmith con datos de cliente. |
+| 1:45–2:30 · Humano + ROI | 🖥️ Diagrama de escala | Muestra el **diagrama Mermaid del case study de Glovar Prospector** (arquitectura de la plataforma en producción) mientras cuentas la objeción de costos + la demo que falló. Opcional: una terminal corriendo `python main.py` de OmniRetail localmente mostrando la telemetría por turno. |
+| 2:30–2:45 · Cierre | 🎥 Cara completa | Cierre de seguridad conectando con Cadre. |
+
+### ❌ Prohibido mostrar
+Código/flujos/logs de Glovar o Última Milla · datos o nombres reales de clientes · `.env`/claves ·
+LangSmith con proyectos reales · cualquier captura del backend privado.
+
+### 📊 Números (honestidad = credibilidad ante Private Equity)
+Usa cifras **reales y defendibles**. Dos framings según qué proyecto lideres visualmente:
+- Si lideras con **OmniRetail** (soporte): "un agente maneja consultas de catálogo/pedidos 24/7 sin
+  inventar precios, con jerarquía de verdad auditable" (número de consultas/día que puedas sostener).
+- Si citas **Glovar** (prospección, vía diagrama): la objeción encaja perfecto — "una persona califica
+  ~[N reales] leads/día; el sistema procesa [N] antes de las 9:00 AM". **No inventes 500 si no lo puedes
+  probar**; usa tu dato real. La cifra debe aguantar una repregunta.
+
+### Cómo grabar (setup)
+- Loom con burbuja de cámara (o OBS): pantalla + tu cara en esquina.
+- Pestañas/archivos **pre-abiertos** para no buscar en vivo; usa el cursor para señalar líneas.
+- Ensaya 2-3 veces cronometrando (~2:45). Auriculares + buena luz. Re-graba si te trabas (Loom recorta).
+
+### Booster opcional (si quieres 1 artefacto "de laboratorio")
+Repo público mínimo `rag-truth-hierarchy-demo`: reproduce el patrón (chunking estructural + reranking +
+regla SQL>RAG) con datos ficticios, en 1 archivo que corre. Da código limpio 100% tuyo para señalar sin
+NDA. No es necesario (OmniRetail ya alcanza), pero suma si tienes 1-2 horas. Dímelo y lo armo.
