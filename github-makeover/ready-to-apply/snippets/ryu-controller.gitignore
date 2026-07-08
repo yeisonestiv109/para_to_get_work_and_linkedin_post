@@ -1,0 +1,15 @@
+# Python bytecode (should never be tracked)
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# OS / editor noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Env
+.env

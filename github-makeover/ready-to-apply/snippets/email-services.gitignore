@@ -1,0 +1,18 @@
+# Runtime mail data (demo mailboxes should not be versioned)
+maildata/
+
+# TLS material (generate locally; never commit certs/keys)
+dovecot/ssl/*.pem
+dovecot/ssl/*.key
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.env
