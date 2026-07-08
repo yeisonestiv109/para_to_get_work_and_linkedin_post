@@ -184,3 +184,67 @@ Usa cifras **reales y defendibles**. Dos framings según qué proyecto lideres v
 Repo público mínimo `rag-truth-hierarchy-demo`: reproduce el patrón (chunking estructural + reranking +
 regla SQL>RAG) con datos ficticios, en 1 archivo que corre. Da código limpio 100% tuyo para señalar sin
 NDA. No es necesario (OmniRetail ya alcanza), pero suma si tienes 1-2 horas. Dímelo y lo armo.
+
+
+---
+
+## 🎬 GUION v3 (FINAL) — SOLO Glovar Prospector · tono natural para hablar
+> Reemplaza el guion v2 y el shot-list anterior. **Un solo proyecto: Glovar Prospector.** No mezclar
+> OmniRetail. Los "datos desordenados" = el **JSON crudo de los scrapers/APIs** (Tavily, Apify, Apollo,
+> Hunter), no datos de cliente. Entorno AI-native = citar la guía oficial de **Anthropic (Claude Code)**.
+> Habla natural, con pausas; no lo leas monótono.
+
+**[0:00–0:15 · Gancho — 🎥 cara]**
+> "Hey Cadre team, I'm Yeison. Real quick — the thing that taught me the most about production AI was a
+> demo that broke live, in front of a paying client. Let me show you the system, because it's exactly
+> what this role is about."
+
+**[0:15–0:40 · Problema — 🖥️ JSON crudo del scraper]**
+> "The client's sales team was drowning in manual work, so I built Glovar Prospector to automate it. But
+> here's the real problem — this *(show the raw JSON)* is what my scrapers pull back from the APIs:
+> Tavily, Apify, Apollo. It's a mess — nested, noisy, half of it useless. My job is to turn this chaos
+> into a qualified lead with a real reason to reach out and a valid email."
+
+**[0:40–1:20 · Reto técnico — 🖥️ diagrama de arquitectura]**
+> "Here's how. It's a multi-agent pipeline in LangGraph. First, an LLM turns a plain-English 'ideal
+> customer' into a structured search plan. Then it discovers companies — and this part matters — it only
+> keeps one if there's a real 2025 trigger, an actual reason to call. Then, before I spend a cent on paid
+> email APIs, I validate every LinkedIn profile in plain Python and verify the domain really belongs to
+> the company — that's what kills bounced emails. Emails cascade Apollo, then Hunter, then a pattern
+> guess I explicitly label 'inferred' — I never pass a guess off as verified. Finally a RAG step audits
+> each lead on three things — real trigger, business impact, right role — and writes the cold email."
+
+**[1:20–1:45 · AI-native — 🖥️ doc de Anthropic]**
+> "And how do I build this fast, without throwing prompts at the wall for two weeks? I work AI-native.
+> *(show https://code.claude.com/docs/en/best-practices)* I follow Anthropic's own playbook — a CLAUDE.md
+> that gives the agent real project context, small well-scoped tasks, and evals so I measure cost and
+> latency with data, not vibes. That's context engineering, not prompt roulette."
+
+**[1:45–2:30 · Humano + ROI — 🖥️ diagrama o salida limpia]**
+> "But the biggest lessons were human. My lead wasn't deeply technical, so to defend an architecture call
+> I dropped the jargon: 'the validator is just a journalist checking a primary source before repeating a
+> rumor.' Once he saw it, he could sell it to the client. Then that demo failed — a real edge case, live.
+> I didn't hide it; I paused and said 'here's exactly why it broke, and here's my fix and the date.' That
+> honesty bought me two more weeks instead of losing the account. And the objection I'll never forget:
+> 'why pay for this if someone on minimum wage does it?' I didn't defend the tech — I used their numbers:
+> one rep qualifies maybe [N] companies a day; this clears [N] before 9 a.m., every day, no bounces, no
+> turnover. Framed as return, the price stopped being the argument."
+
+**[2:30–2:45 · Cierre — 🎥 cara]**
+> "That's the work I love — messy data, real clients, real stakes. It's exactly what Cadre does: ship
+> systems that move the business, not decks. I'd love to build that with you. Thanks."
+
+### Shot-list FINAL (assets seguros, solo Glovar)
+| Tiempo | Pantalla | Qué mostrar |
+|---|---|---|
+| 0:00–0:15 | 🎥 Cara | Gancho de la demo fallida. |
+| 0:15–0:40 | 🖥️ | **JSON crudo saneado** de un scraper/API (Tavily/Apify/Apollo): anidado y ruidoso. Sin claves, sin datos reales de cliente. |
+| 0:40–1:20 | 🖥️ | Diagrama Mermaid del case study: https://github.com/YeisonDelgado/glovar-prospector-casestudy — señala con el cursor: news trigger → validación de dominio → cascada de email → RAG validator. |
+| 1:20–1:45 | 🖥️ | Página de Anthropic **Best practices for Claude Code** (https://code.claude.com/docs/en/best-practices) + menciona CLAUDE.md/evals. |
+| 1:45–2:30 | 🖥️ | El mismo diagrama, o una **salida limpia saneada** (un lead calificado + email en frío, con empresa/persona ficticias) mientras cuentas objeción/demo. |
+| 2:30–2:45 | 🎥 Cara | Cierre. |
+
+### Seguridad / honestidad
+- El JSON crudo y la salida limpia = **ejemplos representativos saneados** (empresa/persona ficticias, sin API keys, sin datos reales de cliente). Muestran el patrón sin violar NDA.
+- **NO** mostrar código fuente del Prospector, `.env`, LangSmith con datos reales.
+- Los `[N]` = cifras **reales y defendibles** (leads/día que puedas sostener en una repregunta). No inventes 300/500 si no lo pruebas.
