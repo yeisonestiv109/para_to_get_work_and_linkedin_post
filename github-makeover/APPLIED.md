@@ -26,3 +26,28 @@
 ## 🔐 SEGURIDAD — hazlo ya
 El PAT quedó **expuesto en el chat**. Revócalo/rótalo:
 GitHub → Settings → Developer settings → Personal access tokens → Fine-grained → (tu token) → **Revoke**.
+
+
+---
+
+## Actualización 2 — READMEs reescritos + higiene de código (jul 2026)
+Todos los READMEs quedaron **en inglés, consistentes, con diagramas Mermaid** fieles al código real
+(revisado clonando cada repo). Se eliminó todo texto "de IA"/placeholder.
+
+**READMEs reescritos (9 repos):**
+- Fijados: `OmniRetail-Agent`, `LangGraph_Bootnet_Detection`, `Ryu_Controller_v1`, `Restaurant_System_V2`,
+  `Server_Rutaya`, `Email-Services-with-Docker`.
+- Otros: `VitaMind_App2` (tenía el README del template ajeno Punch Through → ahora describe VitaminD),
+  `Aplicacion-para-Cursos-en-Linea` (tenía las instrucciones del ejercicio → ahora describe la app Django),
+  `NSFNET-Topology` (no tenía README → creado).
+
+**Higiene de código aplicada (seguridad/limpieza):**
+- `Restaurant_System_V2`: eliminado `.git_backup_v2/` (repo git anidado commiteado); **contraseña de
+  Postgres movida a variable de entorno** (`${POSTGRES_PASSWORD}`) + `.env.example`.
+- `Email-Services-with-Docker`: se dejó de trackear `dovecot/ssl/dovecot.key` (**llave privada**) y
+  `dovecot/passwd`; `.gitignore` actualizado.
+- `Server_Rutaya`: eliminado `GUIA_GITHUB.md` (sobrante).
+- `Ryu_Controller_v1`: eliminado el texto redactado por IA ("si quieres que yo implemente…").
+- `NSFNET-Topology`: se dejó de trackear `__pycache__/`.
+
+Los borradores fuente de los READMEs quedaron versionados en `github-makeover/new-readmes/`.
