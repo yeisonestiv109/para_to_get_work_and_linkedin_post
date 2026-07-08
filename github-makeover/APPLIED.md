@@ -51,3 +51,26 @@ Todos los READMEs quedaron **en inglés, consistentes, con diagramas Mermaid** f
 - `NSFNET-Topology`: se dejó de trackear `__pycache__/`.
 
 Los borradores fuente de los READMEs quedaron versionados en `github-makeover/new-readmes/`.
+
+
+---
+
+## Actualización 3 — Alineación con READMEs canónicos + portfolio + LICENSE (jul 2026)
+Contrastado con los READMEs fuente del repo (`README_prospector.md`, `README_agent_botnets.md`,
+`README_ultima_milla.md`, `README_omniretail.md`) y el portfolio web.
+
+- **Profile README:** añadido enlace al portfolio (https://yeisondelgadowebportfolio.vercel.app/) y
+  **inglés C1 (EF SET)** (coherente con el portfolio y el certificado).
+- **Tesis vs Prospector (diferenciados):** el repo público `LangGraph_Bootnet_Detection` se documentó
+  como la versión simplificada (grafo lineal, Qwen2.5/Ollama, 14 features); las métricas **F1 0.998 /
+  ~93.8 ms** se atribuyen correctamente a la **tesis** (multi-agente, 46 features, Llama-3.2-1B FP16 en
+  Jetson) en una sección "Research context". Ya NO se mezcla con el Prospector.
+- **`glovar-prospector-casestudy`:** reescrito con la arquitectura real (pipeline de 4 scripts
+  main/news_scraper/lead_scraper/validator, Tavily + Apify + Apollo + Hunter, RAG validator + copywriter,
+  scoring ICP fit+intent, Modal serverless, Supabase RLS multi-tenant, rotación de 9 claves Groq).
+- **`voice-agent-ultima-milla-casestudy`:** reescrito con el stack real (Twilio Media Streams, Deepgram
+  nova-3 STT + Aura TTS, Groq Llama-4-Maverick, LangGraph, Supabase pgvector, audioop, VAD, <1s latencia).
+- **OmniRetail:** añadido el **routing gate de 5 ramas** y el **aislamiento stateless por usuario**
+  (FileSessionManager + guardrail de salida).
+- **Buenas prácticas de código:** `LICENSE` MIT añadida a OmniRetail-Agent, LangGraph_Bootnet_Detection,
+  Ryu_Controller_v1, Email-Services-with-Docker, Restaurant_System_V2; `.env.example` en OmniRetail y Email.

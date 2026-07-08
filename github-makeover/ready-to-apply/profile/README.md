@@ -17,7 +17,8 @@ into reliable **agents** and **retrieval systems** that cut cost and latency for
 - **[Restaurant Management System](https://github.com/YeisonDelgado/Restaurant_System_V2)** — full-stack:
   NestJS + Next.js + PostgreSQL + Redis + Docker.
 
-📍 Colombia · Remote · English B2+
+📍 Colombia · Remote · English C1 (EF SET)
 💬 Ask me about production RAG, agent reliability, and latency/cost optimization.
+🌐 Portfolio: https://yeisondelgadowebportfolio.vercel.app/
 🔗 LinkedIn: https://www.linkedin.com/in/estiven-delgado/
 📫 yeisonestivendelgado109@gmail.com

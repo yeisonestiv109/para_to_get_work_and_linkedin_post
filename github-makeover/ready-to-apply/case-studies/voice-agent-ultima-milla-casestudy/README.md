@@ -1,58 +1,56 @@
-# Real-Time Voice Agent (Última Milla) — Case Study
+# Real-Time Voice Agent — "Última Milla" (Case Study)
 
-> **Code is private (client/startup work).** This documents the architecture, the latency problem, and
-> the outcome. Role: **AI Engineer** · Domain: last-mile logistics · Status: production calls.
+> **Code is private (client/startup work).** This documents the architecture, the latency problem and
+> the outcome. Role: **AI Engineer** · Domain: last-mile logistics · Status: production phone calls.
 
 ---
 
 ## TL;DR
-Startups in last-mile logistics lose time and money on repetitive phone coordination (confirming
-deliveries, updating status, answering customer questions). I built a **real-time voice agent** that
-holds a natural phone conversation to manage parts of the customer/delivery lifecycle — the hard part
-wasn't "talking to an LLM," it was making it feel **immediate**: sub-perceptible latency on a live call.
+Last-mile logistics teams lose time on repetitive phone coordination (confirming deliveries, status
+updates, customer questions). I built a **real-time telephone voice agent** that holds a natural Spanish
+conversation to manage parts of the delivery/customer lifecycle. The hard part wasn't the LLM — it was
+making it feel **immediate**: I drove end-to-end response latency **under one second** on live calls.
 
 ## The problem
-- Phone coordination is manual, repetitive, and doesn't scale with delivery volume.
-- A voice bot that pauses awkwardly feels broken; **latency is the product**. Every hop (speech-to-text
-  → reasoning → text-to-speech) adds delay the caller feels.
+A voice bot that pauses awkwardly feels broken. Every stage — speech-to-text → reasoning → text-to-speech
+— adds delay the caller *feels*. The product only works if the turn-around is fast enough that the human
+doesn't notice the machine.
 
-## What I built
-A streaming voice pipeline that overlaps steps instead of doing them one-by-one:
+## Architecture
 
+```mermaid
+graph LR
+    Caller[Caller] <-->|PSTN| TW[Twilio Media Streams<br/>mulaw 8kHz, bidirectional]
+    TW <-->|WSS /media-stream| APP[FastAPI + WebSocket server]
+    APP -->|streaming audio| STT[Deepgram nova-3 STT<br/>Groq Whisper fallback]
+    STT -->|partial transcript| BRAIN[LangGraph state machine<br/>Groq Llama-4-Maverick MoE 128k]
+    BRAIN -->|tools / RAG| SUPA[(Supabase pgvector<br/>seeded manuals + tracking)]
+    BRAIN -->|streamed text| TTS[Deepgram Aura TTS<br/>aura-2-celeste-es]
+    TTS -->|mulaw 8kHz| APP
+    DISP[Dispatch controller TUI<br/>+ GPS simulator] -->|Bearer-auth REST| APP
 ```
-Caller audio ─▶ Twilio Media Streams ─▶ Deepgram STT (streaming)
-      ▲                                        │
-      │                                        ▼
- Deepgram TTS (streaming) ◀── response ◀── LLM reasoning (streaming) + tool calls
-```
 
-- **Telephony:** Twilio Media Streams for real-time, bidirectional audio.
-- **STT/TTS:** Deepgram streaming (start processing before the caller finishes; start speaking before
-  the full answer is generated).
-- **Latency engineering:** streaming end-to-end, partial results, and **execution fallbacks** so a slow
-  tool call never leaves dead air.
-- **Dialog control:** intent handling + guardrails to keep the conversation on-task and safe.
-
-## The hardest technical challenge
-**Perceived latency on a live call.** I treated it as a systems problem, not a model problem: stream at
-every stage, act on partial transcripts, pre-warm responses, and add graceful fallbacks. The goal was a
-turn-around fast enough that the caller doesn't notice the machine in the loop.
-> Replace with real number: reduced end-to-end response latency to ~[X] ms / under [Y] second.
-
-## Decisions & trade-offs
-| Decision | Why | Trade-off |
-|---|---|---|
-| Streaming STT/TTS over batch | Cut perceived latency dramatically | More complex state handling |
-| Fallbacks on slow tool calls | Never leave silence on the line | Extra orchestration logic |
-| Guardrails on dialog | Keep calls on-task and safe | Some flexibility traded for reliability |
-
-## Results
-- **Production phone calls** handled autonomously for delivery-lifecycle tasks.
-- Natural, low-latency conversation that saved manual coordination time and logistics cost.
+## How I made it fast (latency engineering)
+- **Stream at every stage.** Deepgram STT and Aura TTS run in streaming mode: the system starts
+  processing before the caller finishes and starts speaking before the full answer is generated.
+- **Act on partial transcripts + VAD.** A silence-timeout VAD (default 1.5s, configurable) closes the
+  turn quickly; audio is converted mulaw↔PCM in-memory (`audioop`) with no external hop.
+- **Fallbacks, no dead air.** A slow tool/model call falls back gracefully so the line never goes silent;
+  Twilio `clear`/`mark` events keep playback in sync and allow barge-in-style buffer control.
+- **Migration for quality/latency.** Moved STT/TTS from ElevenLabs + batch Whisper to **Deepgram
+  streaming (nova-3 + Aura)**, which cut perceived latency and improved Spanish naturalness.
 
 ## Stack
-Python · Twilio Media Streams · Deepgram (STT/TTS) · async WebSockets · LLM (streaming) · FastAPI.
+Python · FastAPI + WebSockets · **Twilio Media Streams** · **Deepgram** (nova-3 STT, Aura TTS) · **Groq
+Llama-4-Maverick** (reasoning) · **LangGraph** (conversational state graph) · **Supabase pgvector** (RAG
+over operations manuals) · `audioop` (mulaw↔PCM). Includes a dispatch TUI and a GPS telemetry simulator
+to trigger and test calls.
+
+## Results
+- **Sub-second** end-to-end response latency on live calls.
+- Autonomous handling of delivery-lifecycle phone tasks, cutting manual coordination time and cost.
+- Signed-webhook dispatch + config-driven VAD/latency knobs for tuning per deployment.
 
 ## What I'd do next
-Add call-level evaluation (transcript quality, task-completion rate) and a barge-in model so callers can
-interrupt naturally mid-sentence.
+Add true barge-in (interrupt mid-sentence), per-call evaluation (task-completion + transcript quality),
+and a warm-transfer path to a human when confidence is low.

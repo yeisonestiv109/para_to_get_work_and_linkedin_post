@@ -87,6 +87,25 @@ The agent enforces strict business rules; the key one is the **truth hierarchy**
 > overrides a general rule. Prices/specs can never be altered to fit a budget; prompt-injection
 > ("ignore previous instructions") is refused.
 
+## 5.1 Five-branch routing gate
+Before any tool runs, every request must fall into one of five branches, which decides whether identity
+verification is required — this is what prevents private-data leaks:
+
+| Branch | Intent | Action |
+|---|---|---|
+| 1 | General FAQ (sales channels, stores) | Policy RAG · no ID |
+| 2 | Return/warranty policy | Policy RAG · no ID |
+| 3 | Public catalog (stock, specs) | Product DB · no ID |
+| 4 | Sensitive financials (taxes, invoice values) | **Blocked until ID/phone verification** |
+| 5 | Order management / PII (shipments, history, tracking) | **Blocked until ID/phone verification** |
+
+## 5.2 Stateless per-customer identity isolation
+Security is atomic and preventive: when the loop detects a different customer ID, it destroys the
+previous agent thread and re-instantiates a blank one via `FileSessionManager`, with each customer in an
+isolated `sessions/session_<ID>/` directory — mathematically preventing cross-contamination between
+customers. An output guardrail in `main.py` catches any response that references a name/ID other than the
+validated customer and forces the model to self-correct before the UI ever sees it.
+
 ## 6. Telemetry
 Every turn prints latency broken down by source — SQLite time, ChromaDB time, other tool I/O, and pure
 model "thought time" (Groq) — so bottlenecks (local retrieval vs. remote inference) are visible live.
