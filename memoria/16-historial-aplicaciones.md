@@ -34,6 +34,8 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 | 15 | Hire Feed (QuikHire) | AI Engineer — RLHF / AI Training (evaluar código IA) | 100% Remoto · async · LATAM · contrato por obra | LinkedIn (fuera de LinkedIn) | _por definir_ | **Alto (fit fácil)** | Por aplicar | 💵 Ingreso en USD mientras busca ($34/h + ~7.5% incentivos, pago semanal PayPal/AirTM). Revisar/evaluar código generado por IA, escribir retos de código. Pide SWE (Python/Java/JS/TS/C++/etc) + atención al detalle. No requiere exp. en IA. Bajo compromiso, flexible. CV EN enfocado a SWE/calidad de código: `Yeison_Delgado_SWE_AITrainer.pdf`. Plataformas fuente: Outlier/Mercor/Turing. |
 | 16 | Sezzle | AI Engineer I (Applied AI) | 100% Remoto · Bogotá Colombia | LinkedIn (fuera de LinkedIn) | _por definir_ | **Muy Alto (~88%)** | Por aplicar | 💰 Salario claro: **USD $2,500–3,333/mes bruto**. Fintech BNPL (US). 🎯 Rol "AI Engineer I" pide **1–3 años** = EXACTO su nivel. Piden Python+SQL+React (full-stack), sistemas IA en producción, agentic, **Claude (requerido → vía Bedrock)**, distribuidos. Plus: transformers/embeddings/NLP, vector DBs (pgvector/Pinecone), langchain/graph/n8n, AWS, Docker/**K8s** (K8s gap → honesto), CI/CD GitLab, Golang (plus). Cultura tipo Amazon LP (high standards, bias for action). ⚠️ 1029 candidatos (alta competencia). CV EN: `Yeison_Delgado_AI_Engineer_Sezzle.pdf`. |
 
+| 17 | Cadre AI | AI Engineer (Production RAG + Agentic) | 100% Remoto · Colombia · Full-Time | 🌟 INBOUND — recruiter Katherin Trujillo Cortes (LinkedIn) → form Gem | _por enviar_ | **Muy Alto (~90%)** | Por aplicar (falta grabar Loom) | 🌟 OPORTUNIDAD TOP: recruiter contactó a Yeison. OpenAI Service Partner (alianzas Anthropic/OpenAI/YC), San Diego. Nicho casi 1:1 (RAG avanzado + agentes en producción client-facing). Salario **$3,500–4,500 USD** (poner 4000). Requisitos: Python+Node.js, vector DBs+RAG optimization+agentic, IaC(Terraform/Pulumi)+Docker+**K8s** (K8s=gap honesto), **Certified Claude Architect en 60 días** (comprometerse), 3+ backend/1+ prod AI (ligero stretch). 🎥 **FILTRO DECISIVO: video Loom en inglés** (sin él NO consideran en Colombia). Referida: Katherin. Guion Loom + form + CV en `memoria/20`. CV: `Yeison_Delgado_AI_Engineer_CadreAI.pdf`. |
+
 > Actualiza "Fecha aplicación" y "Estado" cada vez que avances. Añade filas nuevas debajo.
 
 ---
@@ -50,7 +52,7 @@ Estados de salida: `Rechazado` · `Descartado por mí` · `Sin respuesta` · `En
 
 | Estado | Cantidad |
 |--------|----------|
-| Por aplicar | 14 |
+| Por aplicar | 15 |
 | Evaluar (gates duros) | 1 |
 | Aplicado | 1 |
 | Entrevista realizada (esperando) | 1 (Allied Global) |
