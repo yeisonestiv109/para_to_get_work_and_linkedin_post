@@ -9,13 +9,11 @@
 |---|---|---|---|---|---|
 | 1 | **Prompt Engineer** | Zemsania (cliente vía staffing) | Dana Paragulla · dparagulla@zemsania.com | 🟢 Muy alto | Calca casi literal tu trabajo diario en LLMs |
 | 2 | **Integration Engineer (IA/ML)** | Zemsania (cliente vía staffing) | Alexandra Buitrón · abuitron@zemsania.com | 🟡 Alto (con 1 gap honesto) | Fuerte en integración e IA, gap en ML clásico |
-| 3 | **Ingeniero de Soporte Técnico L2** | Cari AI | Formulario Google | 🟠 Medio-bajo | Buen "plan B", pero requiere PHP/ticketing que no tienes y retrocede tu carrera hacia IA |
+| 3 | **Ingeniero de Soporte Técnico L2** | Cari AI | Formulario Google | 🟡 Medio-alto | Buen "plan B": PHP real de universidad + debugging real en producción, aunque no es tu meta de carrera |
 
-**Recomendación de secuencia:** aplica hoy mismo a **#1 y #2** (mismo día, son la misma agencia de
-staffing — Zemsania — así que probablemente comparten ATS/base de datos: aplicar a ambas con
-buena calidad no es redundante, es cobertura). Aplica a **#3 (Cari AI)** también, como red de
-seguridad, pero sé honesto en el formulario sobre las herramientas que no dominas (mejor que te
-descarten por falta de fit que por falta de honestidad en una prueba técnica).
+**Estado:** ya postulaste a #1 y #2 ✅. Falta #3 (Cari AI). Complétalo con el CV actualizado
+(incluye PHP como formación real) y el guion de `respuestas-formulario.md` para defenderlo en
+entrevista/prueba técnica sin inventar lo que no tienes (ticketing formal, turnos ya confirmados).
 
 ---
 
@@ -73,22 +71,23 @@ una prueba técnica.
 **Cari AI**: plataforma de chatbots con IA que automatiza la atención al cliente (autogestión de
 bots, reducción de carga operativa). [Fuente: aws.amazon.com/marketplace, zoominfo.com/c/cariai]
 
-### Requisitos vs. tu evidencia — aquí sí hay gaps reales
+### Requisitos vs. tu evidencia
 | Pide | Tu evidencia |
 |---|---|
 | SQL intermedio (JOIN) | ✅ PostgreSQL, consultas y estructuración de datos |
-| PHP (leer/depurar) | ❌ No hay evidencia de PHP en tu perfil (tu stack es Python/Node/TS) |
-| Sistemas de tickets (Zoho/Jira/Zendesk) + SLAs | ❌ No mencionado en tu CV |
+| PHP (leer/depurar) | ✅ PHP y MySQL durante varios semestres de universidad + capacidad probada de depurar sistemas backend en producción (Glovar) |
+| Sistemas de tickets (Zoho/Jira/Zendesk) + SLAs | 🟡 Sin uso formal, pero la lógica (priorización por SLA, causa raíz, cierre con seguimiento) es transferible desde tu experiencia resolviendo incidentes reales |
 | Línea de comandos Linux (grep/tail/awk) | ✅ Parcial — Docker, Git, fundamentos Cloud |
 | APIs REST/SOAP + Postman | ✅ Fuerte — consumo e integración de APIs REST |
-| Soporte L2 1-2 años | ❌ Tu experiencia es en desarrollo/automatización, no soporte |
+| Soporte L2 1-2 años | 🟡 Experiencia en desarrollo/automatización con debugging real en producción, no en soporte formal — argumento: la habilidad central (encontrar causa raíz) es la misma |
 | Turnos rotativos 24/7 | ⚠️ Depende de tu disponibilidad real — **debes confirmarlo tú**, no lo asumo por ti |
 
-**Veredicto:** es la vacante más floja en fit técnico y, en términos de carrera, es un **paso lateral
-o hacia atrás** respecto a tu objetivo (Analista/Ingeniero de Automatización e IA). La incluyo porque
-pediste postular a las 3, y puede servir como red de seguridad de ingresos mientras cierras #1 o #2.
-En el formulario seré honesto sobre PHP y ticketing (mejor transparencia que un descarte en la prueba
-técnica del proceso).
+**Veredicto:** con PHP como habilidad real (no inventada), el fit sube de medio-bajo a **medio-alto**.
+Sigue siendo un rol de *soporte*, no de automatización/IA — que es tu objetivo de carrera real — así
+que la mantengo como prioridad #3: red de seguridad de ingresos mientras avanzan los procesos de
+Zemsania, no tu meta final. Ver `respuestas-formulario.md` para el guion de cómo defender PHP y
+ticketing en entrevista/prueba técnica sin sobrevender lo que no tienes (turnos 24/7, experiencia
+formal en soporte L2).
 
 ---
 

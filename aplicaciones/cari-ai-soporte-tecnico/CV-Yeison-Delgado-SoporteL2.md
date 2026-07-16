@@ -7,30 +7,31 @@ LinkedIn: linkedin.com/in/estiven-delgado · GitHub: github.com/YeisonDelgado
 ---
 
 Ingeniero backend con perfil analítico y de resolución de problemas, con experiencia real
-depurando sistemas en producción, analizando datos vía SQL e integrando APIs REST. Curiosidad
-técnica genuina por entender la causa raíz de los problemas (no solo aplicar soluciones
-superficiales), con base sólida en Python, bases de datos relacionales y arquitecturas backend.
+depurando sistemas en producción, analizando datos vía SQL e integrando APIs REST. Mi diferencial
+no es memorizar sintaxis de un lenguaje: es **entender la causa raíz de un problema y moverme con
+soltura entre lenguajes y arquitecturas** (Python, Node.js, PHP) para resolverlo. Base sólida en
+programación web con PHP desde la universidad, reforzada con años de debugging en sistemas backend
+reales en producción.
 
 ---
 
 ## HABILIDADES RELEVANTES PARA SOPORTE TÉCNICO
 
-- **Bases de datos (SQL):** consultas con JOIN, análisis y estructuración de datos en PostgreSQL.
+- **PHP:** programación con PHP y MySQL durante varios semestres de la carrera universitaria
+  (lógica de negocio, POO, conexión y manejo de bases de datos). Lectura y depuración de código
+  ágil gracias a una base sólida en otros lenguajes imperativos (Python, Node.js).
+- **Bases de datos (SQL):** consultas con JOIN, análisis y estructuración de datos en PostgreSQL
+  y MySQL.
 - **APIs REST:** consumo, integración y pruebas (equivalente funcional a Postman) en múltiples
   proyectos productivos.
 - **Línea de comandos / Linux:** uso de Docker, Git y fundamentos de administración de servidores
   en entornos Cloud (AWS, Google Cloud).
-- **Diagnóstico técnico:** depuración de sistemas backend en Python/Node.js, interpretación de
-  logs y errores en producción, propuesta de correcciones.
+- **Diagnóstico técnico:** depuración de sistemas backend en producción, interpretación de logs y
+  errores, identificación de causa raíz y propuesta de correcciones.
 - **Traducción técnico-funcional:** experiencia real levantando requerimientos con clientes no
   técnicos y explicando soluciones en lenguaje simple (proyectos freelance).
 - **Documentación:** README técnicos detallados de arquitectura y troubleshooting para cada
   proyecto que he construido (ver GitHub).
-
-## Nota de transparencia sobre el stack solicitado
-Mi experiencia principal está en **Python y Node.js/TypeScript**, no en PHP; no he usado
-plataformas de ticketing (Zoho/Jira/Zendesk) en un rol formal. Aprendo rápido herramientas nuevas
-cuando la lógica subyacente (SQL, APIs, debugging) ya es un fuerte real, como lo es en mi caso.
 
 ---
 
@@ -50,6 +51,11 @@ cuando la lógica subyacente (SQL, APIs, debugging) ya es un fuerte real, como l
 ### Investigador en IA y Edge Computing — Universidad del Cauca · 2025 – 2026
 - Análisis de métricas de rendimiento (latencia, precisión) para detectar y corregir cuellos de
   botella en sistemas en tiempo real.
+
+### Formación técnica en programación web — Universidad del Cauca
+- Desarrollo de aplicaciones web con **PHP y MySQL** durante varios semestres de la carrera
+  (formularios, lógica de negocio, persistencia de datos, POO), como base de mi formación en
+  ingeniería de software antes de especializarme en Python/Node.js e IA.
 
 ---
 

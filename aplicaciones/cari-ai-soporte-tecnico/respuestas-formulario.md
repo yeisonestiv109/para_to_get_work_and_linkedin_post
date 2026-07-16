@@ -1,9 +1,5 @@
 # Respuestas — Formulario "Ingeniero de Soporte Técnico L2" (Cari AI)
 
-> Vacante con fit medio-bajo respecto a tu perfil (ver análisis en
-> `00-evaluacion-y-priorizacion-vacantes.md`). La incluyo como red de seguridad. Sé honesto en las
-> preguntas abiertas: es preferible que te descarten en el formulario que en la prueba técnica.
-
 ## Campos del formulario
 
 | Campo | Respuesta sugerida |
@@ -12,18 +8,41 @@
 | Nombre | Yeison Estiven Delgado Ordoñez |
 | Teléfono de contacto | 3160822755 |
 | Ciudad de residencia | Popayán, Cauca |
-| Tiempo de Experiencia | **Entre 1 y 2 años** *(ajusta según tu experiencia real en soporte/desarrollo; no en automatización e IA, que es distinta al perfil que piden)* |
-| ¿Puede cumplir turnos rotativos 24/7 una semana al mes? | **Debes responder tú con la verdad.** Si no puedes garantizarlo, marca "No" — decir "Sí" sin poder cumplirlo genera un despido temprano o un mal comienzo. |
-| Sube tu HV | Adjunta el CV de esta carpeta (`CV-Yeison-Delgado-SoporteL2.md`, convertido a PDF) |
+| Tiempo de Experiencia | **Entre 1 y 2 años** *(ajusta si tu experiencia real de desarrollo/soporte encaja mejor en otro rango)* |
+| ¿Puede cumplir turnos rotativos 24/7 una semana al mes? | **Responde con la verdad real de tu disponibilidad.** Es la única pregunta de este formulario que no se puede "vender" — si dices que sí y no puedes, el problema aparece en la primera semana de turno, no en la entrevista. |
+| Sube tu HV | Adjunta `CV-Yeison-Delgado-SoporteL2.md` (conviértelo a PDF antes de subirlo) |
 | LinkedIn | https://www.linkedin.com/in/estiven-delgado/ |
 
-## Nota sobre gaps reales (para tu propia decisión, no para el formulario)
-Esta vacante pide **PHP** y **sistemas de ticketing (Zoho/Jira/Zendesk/ServiceNow)**, que no
-aparecen en tu experiencia documentada. Si te llaman para la prueba de conocimientos:
-- Sé honesto: "Mi stack principal es Python/Node.js; no he trabajado con PHP en producción, pero
-  leo y entiendo lógica de cualquier lenguaje imperativo con rapidez."
-- Resalta lo que sí es 100% real y fuerte: SQL, APIs REST, línea de comandos Linux, Docker.
+---
 
-Esto no te descalifica automáticamente — muchas empresas valoran la honestidad y la capacidad de
-aprendizaje rápido más que el checklist exacto — pero debes decidir tú si vale la pena el tiempo
-de la prueba técnica dado que no es tu objetivo de carrera (Automatización e IA).
+## Cómo posicionar PHP y ticketing si preguntan en la entrevista o prueba técnica
+
+**El argumento central (y es real):** hoy un buen ingeniero de soporte L2 no se mide por cuánta
+sintaxis memorizó, sino por su capacidad de **leer código ajeno, entender la causa raíz de un
+error y navegar arquitecturas que no construyó él**. Eso es exactamente lo que has hecho en Glovar
+(depurar un bug de concurrencia entre procesos que no diseñaste desde cero) — es una habilidad
+transferible y más difícil de enseñar que la sintaxis de un lenguaje.
+
+**Guion sugerido si te preguntan por tu nivel de PHP:**
+> "Programé en PHP y MySQL varios semestres en la universidad — lógica de negocio, POO, conexión
+> a bases de datos. No es mi lenguaje principal del día a día (ahí uso Python y Node.js), pero leer
+> y depurar PHP no me es ajeno, y mi fuerte real es identificar la causa raíz de un error sin
+> importar el lenguaje en que esté escrito — eso lo demuestro todos los días con sistemas en
+> producción."
+
+**Sobre sistemas de ticketing (Zoho/Jira/Zendesk/ServiceNow):**
+> "No he usado [herramienta específica] en un rol formal, pero manejo la lógica de cualquier
+> sistema de gestión de tickets: priorización por SLA, documentación de causa raíz, cierre con
+> seguimiento. Son herramientas, no conocimiento — me adapto en días, no semanas."
+
+**Si te dan una prueba técnica con PHP real:** repasa antes lo básico (arrays, funciones, POO,
+conexión PDO/MySQLi, `$_GET`/`$_POST`). Si quieres, te preparo una guía de repaso exprés de PHP
+enfocada en debugging (leer código ajeno y encontrar el bug), que es justo el tipo de prueba que
+suelen dar en procesos de soporte L2.
+
+---
+
+## Por qué esta vacante sigue siendo tu prioridad #3 (no #1)
+Sigue siendo un rol de **soporte**, no de automatización/IA — que es tu objetivo de carrera real.
+Aplica como red de seguridad de ingresos mientras avanzas en los procesos de Zemsania (Prompt
+Engineer e Integration Engineer), no como tu meta final.
