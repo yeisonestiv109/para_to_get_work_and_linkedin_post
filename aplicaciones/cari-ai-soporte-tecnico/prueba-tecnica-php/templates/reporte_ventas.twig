@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cari AI · Reporte de ventas por producto</title>
+    <style>
+        body { font-family: Arial, Helvetica, sans-serif; margin: 40px; color: #222; background: #f7f7f9; }
+        h1 { font-size: 20px; margin-bottom: 4px; }
+        .subtitulo { color: #666; margin-bottom: 24px; font-size: 13px; }
+        table { border-collapse: collapse; width: 100%; max-width: 720px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+        th, td { border: 1px solid #ddd; padding: 10px 14px; text-align: left; }
+        th { background: #1f2d5c; color: #fff; font-size: 13px; text-transform: uppercase; }
+        td.numero, th.numero { text-align: right; }
+        tr:nth-child(even) { background: #fafafa; }
+        tfoot td { font-weight: bold; background: #eef1fb; }
+        .footer { margin-top: 20px; font-size: 12px; color: #888; }
+    </style>
+</head>
+<body>
+    <h1>Reporte de ventas por producto</h1>
+    <p class="subtitulo">Generado el {{ generadoEn }} · Prueba técnica Cari AI · Tablas: Client, Product, Orders</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Referencia</th>
+                <th class="numero">Cantidad</th>
+                <th class="numero">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for row in rows %}
+            <tr>
+                <td>{{ row.producto }}</td>
+                <td>{{ row.referencia }}</td>
+                <td class="numero">{{ row.cantidad }}</td>
+                <td class="numero">${{ '%.0f'|format(row.total)|number_format(0, ',', '.') }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total general</td>
+                <td class="numero">${{ '%.0f'|format(totalGeneral)|number_format(0, ',', '.') }}</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p class="footer">
+        API equivalente en JSON: <code>/api/ventas-por-producto</code> ·
+        Framework: Slim 4 + Twig 3 · Base de datos: SQLite (equivalente funcional a MySQL para esta demo)
+    </p>
+</body>
+</html>
