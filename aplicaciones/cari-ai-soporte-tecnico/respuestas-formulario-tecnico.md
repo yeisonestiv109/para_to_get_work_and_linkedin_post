@@ -62,13 +62,30 @@ aquí importa más que la casilla.)*
 
 ### En el aspecto profesional, ¿de qué te sientes orgulloso(a)?
 
-> Me siento orgulloso de haber diseñado un sistema en producción (un asistente comercial con IA
-> para retail) donde apliqué una arquitectura de datos que **redujo las alucinaciones del modelo a
-> prácticamente cero**. No fue un ajuste cosmético: fue entender a fondo por qué un modelo de
-> lenguaje "inventa" respuestas y diseñar una jerarquía de verdad (datos estructurados primero,
-> luego contexto documental, y solo al final el conocimiento del modelo) que blindó al negocio de
-> dar información incorrecta a sus clientes. Ese tipo de trabajo —encontrar la causa raíz de un
-> problema que muchos solo parchan por fuera— es lo que más disfruto de la ingeniería.
+> Me siento orgulloso de no programar por programar, sino de diseñar arquitecturas que se
+> traducen en valor real de negocio: que la empresa gane más dinero, ahorre dinero, o ahorre
+> tiempo. Un ejemplo concreto: en una plataforma B2B de prospección automatizada, no me limité a
+> "hacer que el flujo funcionara" — diseñé un motor de calificación de leads (scoring 0-100) que
+> le dice al equipo comercial exactamente dónde enfocar su tiempo, y automaticé tareas que antes
+> tomaban horas manuales al día, liberando ese tiempo para tareas de mayor valor. Ese es el tipo
+> de pregunta que me hago siempre antes de escribir una línea de código: "¿esto genera ingresos,
+> ahorra costos o ahorra tiempo, y para quién?".
+>
+> También me enorgullece mi disciplina para resolver sin excusas, incluso cuando el problema es
+> incómodo o no es "mi área". Diagnostiqué y corregí un bug crítico de producción (procesos
+> concurrentes contaminando datos entre sí) que nadie más había logrado aislar — no me quedé en
+> "reiniciar y esperar que no vuelva a pasar", sino que investigué hasta encontrar la causa raíz
+> real.
+>
+> Pero lo que más cuido es no resolver un problema creando dos nuevos: antes de aplicar cualquier
+> corrección, reviso el sistema completo desde varios ángulos —¿a qué otros procesos, usuarios o
+> datos toca esto?, ¿qué se rompe si cambio esto para arreglar aquello?—. Por ejemplo, al reducir
+> los rebotes de correo en un sistema de contacto automatizado, no bastaba con "enviar más
+> rápido"; había que verificar primero la validez del dominio de destino, porque una solución
+> apresurada ahí podía dañar la reputación de envío de toda la plataforma, afectando a clientes que
+> ni siquiera eran parte del problema original. Prefiero ir un poco más despacio y confirmar el
+> impacto completo, que entregar una solución rápida que termine generando más incidentes de los
+> que resolvió.
 
 ---
 
