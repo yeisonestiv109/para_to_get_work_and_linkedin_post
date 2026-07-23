@@ -1,0 +1,3 @@
+# Email stack — environment variables (copy to .env)
+POSTFIX_HOSTNAME=mail.example.local
+POSTFIX_DOMAIN=example.local

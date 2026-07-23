@@ -1,0 +1,15 @@
+{
+    "name": "cariai/prueba-soporte",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4",
+        "slim/psr7": "^1",
+        "twig/twig": "^3"
+    },
+    "authors": [
+        {
+            "name": "Kiro Agent",
+            "email": "244629292+kiro-agent@users.noreply.github.com"
+        }
+    ]
+}

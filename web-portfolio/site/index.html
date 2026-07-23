@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yeison Delgado — AI Software Engineer | Voice AI · Agentes · RAG</title>
+  <meta name="description" content="Yeison Delgado, AI Software Engineer. Construyo IA en producción: agentes de voz, sistemas multi-agente y RAG. Voice AI, LangGraph, FastAPI, fine-tuning." />
+  <meta name="author" content="Yeison Estiven Delgado Ordoñez" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Yeison Delgado — AI Software Engineer" />
+  <meta property="og:description" content="Construyo IA en producción: agentes de voz, multi-agente y RAG." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=20260630" />
+</head>
+<body>
+
+  <!-- ===== SPLASH ===== -->
+  <div class="splash" data-splash aria-hidden="true">
+    <div class="splash-inner">
+      <span class="splash-name">YEISON&nbsp;DELGADO</span>
+      <span class="splash-line"></span>
+    </div>
+  </div>
+
+  <!-- ===== CURSOR ===== -->
+  <div class="cursor" data-cursor-root aria-hidden="true">
+    <span class="cursor-dot"></span>
+    <span class="cursor-ring"></span>
+  </div>
+
+  <!-- ===== SCROLL PROGRESS ===== -->
+  <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" data-nav>
+    <a href="#hero" class="nav-logo" aria-label="Inicio">YD<span class="nav-logo-dot"></span></a>
+    <nav class="nav-links" aria-label="Secciones">
+      <a href="#about" class="nav-link"><span class="nav-num">01</span> <span data-en="About">Sobre mí</span></a>
+      <a href="#work" class="nav-link"><span class="nav-num">02</span> <span data-en="Work">Proyectos</span></a>
+      <a href="#stack" class="nav-link"><span class="nav-num">03</span> <span data-en="Stack">Stack</span></a>
+    </nav>
+    <div class="nav-right">
+      <button class="lang-toggle" data-lang-toggle aria-label="Cambiar idioma">
+        <span class="lang-es is-active">ES</span><span class="lang-sep">/</span><span class="lang-en">EN</span>
+      </button>
+      <a href="#contact" class="btn btn-accent nav-cta" data-cursor data-en="Contact">Contacto</a>
+      <button class="burger" data-burger aria-label="Menú" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="nav-mobile" data-nav-mobile aria-hidden="true">
+    <a href="#about" class="nav-mobile-link"><span class="nav-num">01</span> <span data-en="About">Sobre mí</span></a>
+    <a href="#work" class="nav-mobile-link"><span class="nav-num">02</span> <span data-en="Work">Proyectos</span></a>
+    <a href="#stack" class="nav-mobile-link"><span class="nav-num">03</span> <span data-en="Stack">Stack</span></a>
+    <a href="#contact" class="nav-mobile-link"><span class="nav-num">04</span> <span data-en="Contact">Contacto</span></a>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-gradient" aria-hidden="true"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-kicker" data-reveal>
+          <span class="dot-live"></span>
+          <span data-en="AI Software Engineer · Voice AI · Colombia (Remote)">AI Software Engineer · Voice AI · Colombia (Remoto)</span>
+        </p>
+        <h1 class="hero-title" data-split="chars">Construyo IA<br><em data-en="that ships.">que llega a producción.</em></h1>
+        <p class="hero-tagline" data-reveal data-en="Not in a demo — in production. Voice agents, multi-agent systems and RAG that save companies money and time.">
+          No en una demo — en producción. Agentes de voz, sistemas multi-agente y RAG que ahorran costos y tiempo a las empresas.
+        </p>
+        <div class="hero-cta" data-reveal>
+          <a href="#work" class="btn btn-accent" data-cursor><span data-en="See projects">Ver proyectos</span> <span class="btn-arrow">→</span></a>
+          <a href="#contact" class="btn btn-ghost" data-cursor data-en="Contact">Contacto</a>
+          <a href="#" class="btn btn-ghost" data-cv data-cursor download><span data-en="Download CV">Descargar CV</span> <span class="btn-dl">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true"><span data-en="scroll">desliza</span> <span class="hero-scroll-line"></span></div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track" data-marquee>
+        <span>Python</span><span>·</span><span>LangGraph</span><span>·</span><span>RAG</span><span>·</span><span>Voice AI</span><span>·</span><span>Twilio</span><span>·</span><span>Deepgram</span><span>·</span><span>FastAPI</span><span>·</span><span>LangChain</span><span>·</span><span>Fine-tuning · LoRA/QLoRA</span><span>·</span><span>Hugging Face</span><span>·</span><span>AWS</span><span>·</span><span>pgvector</span><span>·</span><span>LLMs</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- ===== ABOUT (01) ===== -->
+    <section class="section about" id="about" data-theme="dark">
+      <span class="section-watermark" aria-hidden="true">01</span>
+      <div class="section-head">
+        <span class="section-label" data-en="/ About">/ Sobre mí</span>
+        <h2 class="section-title" data-split="words" data-en="I build AI that companies actually use.">Construyo IA que las empresas usan de verdad.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-body">
+          <p class="about-lead" data-reveal data-en="For 14+ months I've shipped AI to production, 100% remote: real-time voice agents, RAG assistants and multi-agent systems. My focus isn't the trendy model — it's the outcome: saving money, saving time, selling more.">
+            Llevo 14+ meses enviando IA a producción, 100% remoto: agentes de voz en tiempo real, asistentes con RAG y sistemas multi-agente. Mi foco no es el modelo de moda, es el resultado: ahorrar costos, ahorrar tiempo, vender más.
+          </p>
+          <p class="about-support" data-reveal data-en="I come from Electronics & Telecom engineering, with a strong base in backend, cloud (AWS, GCP), data and security. I take problems from idea to a measurable, reliable, maintainable product.">
+            Vengo de Ingeniería Electrónica y Telecomunicaciones, con base fuerte en backend, cloud (AWS, GCP), datos y seguridad. Llevo los problemas de la idea a un producto medible, confiable y mantenible.
+          </p>
+        </div>
+        <ul class="about-data" data-reveal>
+          <li><span class="k" data-en="Experience">Experiencia</span><span class="v" data-en="3+ years (production AI)">3+ años (IA en producción)</span></li>
+          <li><span class="k" data-en="English">Inglés</span><span class="v">C1 (EF SET)</span></li>
+          <li><span class="k" data-en="Location">Ubicación</span><span class="v" data-en="Popayán, CO · Remote">Popayán, CO · Remoto</span></li>
+          <li><span class="k" data-en="Focus">Foco</span><span class="v">Voice AI · Agentes · RAG</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== WORK (02) ===== -->
+    <section class="section work" id="work" data-theme="dark">
+      <span class="section-watermark" aria-hidden="true">02</span>
+      <div class="section-head">
+        <span class="section-label" data-en="/ Selected work">/ Proyectos</span>
+        <h2 class="section-title" data-split="words" data-en="Things I've built — and what they delivered.">Cosas que he construido — y qué lograron.</h2>
+      </div>
+
+      <div class="projects" data-projects>
+
+        <article class="project" data-project>
+          <button class="project-head" data-project-toggle aria-expanded="false">
+            <span class="project-idx">01</span>
+            <span class="project-name">Glovar Prospector</span>
+            <span class="project-tag" data-en="Multi-agent · Production">Multi-agente · Producción</span>
+            <span class="project-year">2026</span>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-body" data-project-body>
+            <div class="project-body-inner">
+              <p data-en="Production B2B multi-agent prospecting platform. LangGraph orchestration with strict tool-calling and prompt evaluation to prevent hallucinations; FastAPI on autoscaling serverless (Modal) + Supabase/PostgreSQL with multi-tenant RLS; rotating API-key pool for concurrency; LLM observability and token-cost control with LangSmith.">
+                Plataforma B2B de prospección autónoma multi-agente en producción. Orquestación con LangGraph y tool-calling estricto + evaluación de prompts para prevenir alucinaciones; FastAPI sobre serverless con autoescalado (Modal) + Supabase/PostgreSQL con RLS multi-tenant; pool rotativo de claves para concurrencia; observabilidad y control de costos de tokens con LangSmith.
+              </p>
+              <ul class="project-stack"><li>LangGraph</li><li>FastAPI</li><li>Modal</li><li>Supabase / pgvector</li><li>Groq</li><li>LangSmith</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" data-project>
+          <button class="project-head" data-project-toggle aria-expanded="false">
+            <span class="project-idx">02</span>
+            <span class="project-name" data-en="Real-time Voice Agent">Agente de Voz en tiempo real</span>
+            <span class="project-tag">Voice AI</span>
+            <span class="project-year">2026</span>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-body" data-project-body>
+            <div class="project-body-inner">
+              <p data-en="A telephony voice agent (Twilio Media Streams + Deepgram STT/TTS + LLM). The hard part wasn't the AI — it was fighting for every millisecond: I brought end-to-end latency below one second and added execution fallbacks so real calls never dropped.">
+                Agente de voz telefónico (Twilio Media Streams + Deepgram STT/TTS + LLM). Lo difícil no fue la IA, fue pelear cada milisegundo: bajé la latencia de extremo a extremo por debajo de un segundo y añadí fallbacks para que las llamadas reales no se cayeran.
+              </p>
+              <ul class="project-stack"><li>Twilio</li><li>Deepgram</li><li>Groq / LLM</li><li>LangGraph</li><li>WebSockets</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" data-project>
+          <button class="project-head" data-project-toggle aria-expanded="false">
+            <span class="project-idx">03</span>
+            <span class="project-name">OmniRetail</span>
+            <span class="project-tag" data-en="Top 5 of 50 · RAG">Top 5 de 50 · RAG</span>
+            <span class="project-year">2026</span>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-body" data-project-body>
+            <div class="project-body-inner">
+              <p data-en="A retail AI agent that started as a challenge (top 5 of 50 teams) and grew into freelance work. Hybrid RAG (SQL + ChromaDB), a 5-branch routing gate to cut tokens, and a strict zero-hallucination policy: the agent never answers without auditable evidence.">
+                Agente de retail que empezó como challenge (Top 5 de 50 equipos) y se convirtió en freelance. RAG híbrido (SQL + ChromaDB), un routing gate de 5 ramas para reducir tokens y una política estricta de cero alucinaciones: el agente nunca responde sin evidencia auditable.
+              </p>
+              <ul class="project-stack"><li>Strands Agents SDK</li><li>RAG</li><li>ChromaDB</li><li>SQLite</li><li>Groq (Qwen)</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" data-project>
+          <button class="project-head" data-project-toggle aria-expanded="false">
+            <span class="project-idx">04</span>
+            <span class="project-name" data-en="Edge AI Research">Investigación Edge AI</span>
+            <span class="project-tag" data-en="Fine-tuning · F1 0.998">Fine-tuning · F1 0.998</span>
+            <span class="project-year">2025–26</span>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-body" data-project-body>
+            <div class="project-body-inner">
+              <p data-en="A multi-agent system with Small Language Models and switchable QLoRA adapters to detect threats in IoT networks, running on a low-power device — no cloud. Reached F1-Macro of 0.998 with ~93.8 ms inference on hardware using 7–15 W.">
+                Sistema multi-agente con Small Language Models y adaptadores QLoRA conmutables para detectar amenazas en redes IoT, corriendo en un dispositivo de bajo consumo — sin nube. Alcancé F1-Macro de 0.998 con inferencia de ~93.8 ms en hardware de 7–15 W.
+              </p>
+              <ul class="project-stack"><li>SLMs</li><li>LoRA / QLoRA</li><li>Unsloth</li><li>Hugging Face</li><li>PyTorch</li><li>NVIDIA Jetson</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" data-project>
+          <button class="project-head" data-project-toggle aria-expanded="false">
+            <span class="project-idx">05</span>
+            <span class="project-name">WilsonAI</span>
+            <span class="project-tag" data-en="Hackathon · Top 10">Hackathon · Top 10</span>
+            <span class="project-year">2026</span>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-body" data-project-body>
+            <div class="project-body-inner">
+              <p data-en="An AI platform for street-animal rescue built in an 18-hour hackathon with a team (7th place). Offline-first multimodal reporting (voice, text, image), AI triage with early alerts and clinical traceability — engineering and teamwork under pressure.">
+                Plataforma con IA para el rescate de animales de calle, construida en un hackathon de 18 horas en equipo (7.º lugar). Reporte multimodal offline-first (voz, texto, imagen), triage con IA, alertas tempranas y trazabilidad clínica — ingeniería y trabajo en equipo bajo presión.
+              </p>
+              <ul class="project-stack"><li>IA generativa</li><li>Offline-first</li><li>Python</li><li>RAG</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" data-project>
+          <button class="project-head" data-project-toggle aria-expanded="false">
+            <span class="project-idx">06</span>
+            <span class="project-name">Selene</span>
+            <span class="project-tag" data-en="Data & Analytics · Scrum">Datos & Analítica · Scrum</span>
+            <span class="project-year">2026</span>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-body" data-project-body>
+            <div class="project-body-inner">
+              <p data-en="Part of a 10-person team under Scrum (7 sprints) on the Open edX platform. I built the analytics layer with ClickHouse + Superset — teacher dashboards, metrics and report export — and led the regulatory-compliance analysis (Ministry of Education).">
+                Parte de un equipo de 10 personas bajo Scrum (7 sprints) sobre la plataforma Open edX. Construí la capa de analítica con ClickHouse + Superset — dashboards para docentes, métricas y exportación de reportes — y lideré el análisis de cumplimiento normativo (Ministerio de Educación).
+              </p>
+              <ul class="project-stack"><li>ClickHouse</li><li>Apache Superset</li><li>Docker</li><li>Scrum</li></ul>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== STACK (03) ===== -->
+    <section class="section stack" id="stack" data-theme="dark">
+      <span class="section-watermark" aria-hidden="true">03</span>
+      <div class="section-head">
+        <span class="section-label" data-en="/ Stack & skills">/ Stack y skills</span>
+        <h2 class="section-title" data-split="words" data-en="The tools I reach for.">Las herramientas con las que trabajo.</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-col" data-reveal>
+          <h3 class="stack-cat">GenAI / Agentes</h3>
+          <ul><li>LangGraph</li><li>LangChain</li><li>Strands Agents SDK</li><li>RAG</li><li>Prompt engineering</li><li>Guardrails</li><li>Fine-tuning (LoRA/QLoRA)</li></ul>
+        </div>
+        <div class="stack-col" data-reveal>
+          <h3 class="stack-cat">Voice AI</h3>
+          <ul><li>Twilio Media Streams</li><li>Deepgram (STT/TTS)</li><li>VAD · baja latencia</li><li>Real-time pipelines</li></ul>
+        </div>
+        <div class="stack-col" data-reveal>
+          <h3 class="stack-cat">Backend</h3>
+          <ul><li>Python</li><li>FastAPI</li><li>REST · WebSockets</li><li>TypeScript</li><li>Microservicios async</li></ul>
+        </div>
+        <div class="stack-col" data-reveal>
+          <h3 class="stack-cat">Cloud / MLOps</h3>
+          <ul><li>AWS (Lambda, Bedrock)</li><li>Google Cloud</li><li>Modal serverless</li><li>Docker · CI/CD</li><li>LangSmith</li></ul>
+        </div>
+        <div class="stack-col" data-reveal>
+          <h3 class="stack-cat">Datos</h3>
+          <ul><li>PostgreSQL / pgvector</li><li>ChromaDB</li><li>SQLite · Redis</li><li>ClickHouse · Superset</li></ul>
+        </div>
+        <div class="stack-col" data-reveal>
+          <h3 class="stack-cat">ML</h3>
+          <ul><li>Hugging Face</li><li>PyTorch</li><li>scikit-learn</li><li>SHAP</li><li>SLMs · Edge AI</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats" data-theme="dark">
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span data-count-to="14">14</span>+</span>
+        <span class="stat-label" data-en="months in production">meses en producción</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span data-count-to="0.998">0.998</span></span>
+        <span class="stat-label">F1-Macro (Edge AI)</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat-num">&lt;<span data-count-to="1">1</span>s</span>
+        <span class="stat-label" data-en="voice latency">latencia de voz</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span data-count-to="15">15</span>+</span>
+        <span class="stat-label" data-en="certifications">certificaciones</span>
+      </div>
+    </section>
+
+    <!-- ===== CERTS ===== -->
+    <section class="section certs" data-theme="dark">
+      <div class="section-head">
+        <span class="section-label" data-en="/ Certifications">/ Certificaciones</span>
+      </div>
+      <ul class="certs-list" data-reveal>
+        <li>IBM Full Stack Software Developer</li>
+        <li>Google Advanced Data Analytics</li>
+        <li>Google Cybersecurity Professional</li>
+        <li>Google Cloud — Terraform · IAM · DevOps</li>
+        <li>Generative AI Essentials for Cybersecurity</li>
+        <li>Cisco — Python Essentials 1 &amp; 2</li>
+        <li>EF SET English — C1 Advanced</li>
+        <li>Talento Tech — IA Nivel Avanzado</li>
+      </ul>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact" data-theme="dark">
+      <span class="section-watermark" aria-hidden="true">04</span>
+      <div class="section-head">
+        <span class="section-label" data-en="/ Contact">/ Contacto</span>
+        <h2 class="section-title" data-split="words" data-en="Got a process an AI agent could do better, cheaper or faster?">¿Tienes un proceso que un agente de IA podría hacer mejor, más barato o más rápido?</h2>
+      </div>
+      <a class="contact-email" data-email href="mailto:yeisonestivendelgado109@gmail.com">yeisonestivendelgado109@gmail.com</a>
+      <div class="contact-links" data-reveal>
+        <a href="#" data-whatsapp class="contact-chip" data-cursor>WhatsApp</a>
+        <a href="#" data-linkedin class="contact-chip" data-cursor>LinkedIn</a>
+        <a href="#" data-github class="contact-chip" data-cursor>GitHub</a>
+        <a href="#" data-cv class="contact-chip" data-cursor download><span data-en="Download CV">Descargar CV</span></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-display" aria-hidden="true"><span>Yeison Delgado · Yeison Delgado · Yeison Delgado ·</span></div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© <span data-year>2026</span> Yeison Delgado</span>
+      <a href="#hero" class="footer-top" data-en="↑ Back to top">↑ Volver arriba</a>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPTS (clásicos, defer, IIFE — nunca type=module) ===== -->
+  <script defer src="lib/gsap.min.js?v=20260630"></script>
+  <script defer src="lib/ScrollTrigger.min.js?v=20260630"></script>
+  <script defer src="lib/manifest.js?v=20260630"></script>
+  <script defer src="main.js?v=20260630"></script>
+</body>
+</html>

@@ -23,6 +23,16 @@
 | 06 | `06-plan-contenido-posts.md` | Pilares, calendario, plantillas y ganchos de posts. | Al planear/escribir posts. |
 | 07 | `07-plan-30-dias.md` | Plan de acción diario/semanal de 30 días. | Para ejecutar día a día. |
 | 08 | `08-stack-tecnico-ia.md` | Stack de IA/chatbots/voz, proyectos demo a construir. | Para preparar pruebas técnicas y proyectos. |
+| 09 | `09-core-stack-yeison.md` | Core stack REAL de Yeison + stack más demandado 2026 + gaps. | Al posicionar skills / preparar screens. |
+| 10 | `10-cv-corregido.md` | CV final (ATS + senior) confirmado, con certificaciones y proyectos. | Al postular / adaptar el CV. |
+| 11 | `11-salario-y-negociacion.md` | Rangos de mercado 2026 + estrategia y guiones de negociación. | Antes de hablar de salario. |
+| 12 | `12-linkedin-perfil-yeison.md` | Perfil de LinkedIn optimizado, listo para pegar (titular, About, experiencia). | Al optimizar LinkedIn. |
+| 13 | `13-calendario-y-posts-yeison.md` | Calendario de 4 semanas + 10 posts redactados en su voz + estilo anti-IA. | Al publicar contenido. |
+| 14 | `14-vacantes-y-sistema-busqueda.md` | Validación LinkedIn, vacantes/empresas objetivo, plataformas, strings de búsqueda, tracker. | Al buscar y aplicar a vacantes. |
+| 15 | `15-recomendaciones-extra.md` | Recomendaciones extra priorizadas (screen técnico, USD, GitHub, etc.). | Como checklist de lo que falta. |
+| 16 | `16-historial-aplicaciones.md` | Tracker de todas las aplicaciones + estados para graficar el embudo. | Cada vez que apliquemos o avancemos. |
+| 17 | `17-guion-entrevista-ingles.md` | Guion de entrevista en inglés (STAR + técnico) con respuestas modelo. | Antes de cualquier entrevista. |
+| 18 | `18-contexto-proyecto-selene.md` | Contexto del Proyecto Selene (Open edX): Scrum, equipo, DevOps, analítica. | Para vacantes que valoran ágil/equipo/datos. |
 
 ---
 
@@ -37,3 +47,12 @@ generamos ingresos y reducimos tiempo construyendo chatbots, agentes de voz y ag
 2. Cuando agreguemos un archivo nuevo → registrarlo en la tabla de arriba.
 3. Mantener cada archivo enfocado en su categoría (no mezclar temas).
 4. Fechar las decisiones importantes para tener trazabilidad.
+
+
+---
+
+## 📁 Carpetas adicionales (postulaciones específicas)
+
+- `aspiracion-proyecto-success/` — Postulación al Curso Internacional GDSD (Proyecto SUCCESS,
+  Erasmus+ / Unicauca). Contiene su memoria (`00-memoria-success.md`), carta de compromiso,
+  carta de motivación (EN) y hoja de vida adaptada. Cierre de convocatoria: ~26–28 jul 2026.
